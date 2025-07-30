@@ -1,0 +1,65 @@
+[
+  { "id": "textalternativen", "title": "Textalternativen", "groupId": "1.1" },
+  {
+    "id": "zeitbasierteMedien",
+    "title": "Zeitbasierte Medien",
+    "groupId": "1.2"
+  },
+  {
+    "id": "Anpassbar/Inhalte verständlich strukturiert",
+    "title": "Anpassbar/Inhalte verständlich strukturiert",
+    "groupId": "1.3"
+  },
+  {
+    "id": "Unterscheidbar",
+    "title": "Unterscheidbar",
+    "groupId": "1.4"
+  },
+
+  {
+    "id": "Tastaturzugänglichkeit",
+    "title": "Tastaturzugänglichkeit",
+    "groupId": "2.1"
+  },
+  {
+    "id": "genügend Zeit geben",
+    "title": "genügend Zeit geben",
+    "groupId": "2.2"
+  },
+  {
+    "id": "Anfälle vermeiden",
+    "title": "Anfälle vermeiden",
+    "groupId": "2.3"
+  },
+  {
+    "id": "Navigierbarkeit",
+    "title": "Navigierbarkeit",
+    "groupId": "2.4"
+  },
+  {
+    "id": "Eingabemethoden",
+    "title": "Eingabemethoden",
+    "groupId": "2.5"
+  },
+
+  {
+    "id": "Lesbar",
+    "title": "Lesbar",
+    "groupId": "3.1"
+  },
+  {
+    "id": "Vorhersehbar",
+    "title": "Vorhersehbar",
+    "groupId": "3.2"
+  },
+  {
+    "id": "Hilfen bei der Eingabe",
+    "title": "Hilfen bei der Eingabe",
+    "groupId": "3.3"
+  },
+  {
+    "id": "Kompatibilität",
+    "title": "Kompatibilität",
+    "groupId": "4.1"
+  }
+]

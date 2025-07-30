@@ -1,0 +1,145 @@
+<template>
+  <main>
+    <!-- Hero-Bild mit Textüberlagerung -->
+    <div class="relative w-full h-[1000px]">
+      <NuxtImg
+        src="/img/startbild.jpg"
+        alt="Startbild"
+        class="absolute inset-0 object-cover w-full h-full"
+      />
+      <div
+        class="absolute inset-0 flex items-center justify-start pl-10 inhalt"
+      >
+        <div class="space-y-4 max-w-xl">
+          <h1 class="text-6xl footerText text-white">
+            Willkommen zu AccessAbility
+          </h1>
+          <h2 class="text-2xl footerText text-white">
+            Entdecke praktische Tipps, ein hilfreiches <br />
+            Wörterbuch und fundierte Infos, um das <br />
+            Web für alle zugänglich zu machen.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Warum Barrierefreiheit -->
+    <section aria-labelledby="warum-barrierefreiheit" class="inhaltSeite mt-10">
+      <h2 id="warum-barrierefreiheit" class="section-heading">
+        Warum Barrierefreiheit?
+      </h2>
+      <p class="text-xl text-block mt-4">
+        Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht. Wenn
+        du Software oder Websites entwickelst, hast du einen direkten Einfluss
+        darauf, ob Menschen ein digitales Angebot nutzen können oder
+        ausgeschlossen werden. Genau deshalb ist Barrierefreiheit ethisch und
+        politisch relevant.
+      </p>
+      <p class="text-xl text-block">
+        Mehr als zehn Millionen Menschen in Deutschland leben mit einer Form von
+        Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
+        Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
+        sind z.B. ohne Alternativtexte, unlesbar für Screenreader oder nur per
+        Maus bedienbar, schließt das diese Menschen aktiv aus. Das betrifft dann
+        nicht nur Freizeitangebote, sondern auch Bildung, Arbeit, Wohnen und
+        staatliche Leistungen.
+      </p>
+      <p class="text-xl text-block">
+        Barrierefreiheit ist in der UN-Behindertenrechtskonvention verankert,
+        die Deutschland unterzeichnet hat. Sie verpflichtet uns, digitale
+        Angebote so zu gestalten, dass sie für alle zugänglich sind, unabhängig
+        von Fähigkeiten. Auch Gesetze wie das Barrierefreiheitsstärkungsgesetz
+        (BFSG) greifen diese Verpflichtung auf.
+      </p>
+      <p class="text-xl text-block">
+        Doch über Gesetze hinaus geht es um Verantwortung. In einer digitalen
+        Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
+        studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt wird.
+        Barrierefreiheit ist kein „nice to have“, sondern ein Zeichen von
+        Respekt, Gerechtigkeit und Professionalität.
+      </p>
+    </section>
+
+    <!-- Lisa Erfahrungsbericht -->
+    <section class="inhaltSeite">
+      <h2 class="section-heading">Hallo ich bin Lisa.</h2>
+      <p class="text-xl text-block">
+        ich bin 32 Jahre alt und von Geburt an stark sehbehindert. Ich nutze
+        täglich das Internet, für meine Arbeit, zum Einkaufen, zur Information
+        und für soziale Kontakte. Dabei bin ich auf Hilfsmittel wie eine
+        Screenreader-Software und die Tastaturnavigation angewiesen. Leider
+        stoße ich im Netz immer wieder auf Barrieren, die meine Teilhabe sehr
+        einschränken.
+      </p>
+      <p class="text-xl text-block">
+        Ein wiederkehrendes Problem sind schlecht strukturierte Webseiten. Viele
+        Seiten verwenden keine korrekten HTML-Überschriften oder haben keine
+        logische Reihenfolge der Inhalte. Für sehende Menschen ist das
+        vielleicht kein Problem, sie sehen die Überschrift größer oder farblich
+        abgesetzt. Aber mein Screenreader braucht klare Strukturinformationen,
+        um mir zu sagen, wo ich bin und wie ich schnell zum gewünschten Inhalt
+        komme. Auch Bilder ohne Alternativtexte sind ein häufiges Hindernis.
+        Wenn ich etwa auf einer Online-Shopping-Seite unterwegs bin und das Bild
+        eines Produkts nur als „image123.jpg“ beschrieben ist, kann ich nicht
+        erkennen, was dort gezeigt wird. Das macht selbstständiges Einkaufen
+        nahezu unmöglich.
+      </p>
+      <p class="text-xl text-block">
+        Formulare sind ein weiteres Beispiel: Viele haben keine korrekt
+        beschrifteten Felder oder reagieren nur auf Mausaktionen. Ich kann dann
+        gar nicht erkennen, was ich in welches Feld eintragen muss oder ich
+        komme mit der Tastatur gar nicht erst in die Felder hinein. Besonders
+        ärgerlich wird das bei wichtigen Vorgängen, wie dem Ausfüllen von
+        Behördenformularen.
+      </p>
+      <p class="text-xl text-block">
+        Auch Captchas stellen oft ein unüberwindbares Hindernis dar. Wenn es
+        keine barrierefreie Alternative (z.B. Audio-Captchas) gibt, bleibe ich
+        bei der Anmeldung einfach außen vor. Das frustriert mich, denn es zeigt
+        mir immer wieder: Das Internet ist nicht für alle gemacht, obwohl es das
+        sein sollte. Gute Beispiele gibt es zwar, aber sie sind leider noch die
+        Ausnahme. Ich wünsche mir, dass Entwickler*innen und Website-Betreiber
+        Barrierefreiheit nicht als Sonderfall, sondern als Standard betrachten.
+        Schließlich profitieren alle von klarer Struktur, verständlicher Sprache
+        und zugänglichem Design, nicht nur Menschen mit Behinderung.
+      </p>
+    </section>
+
+    <section class="inhaltSeite">
+      <h2 class="text-6xl font-bold mt-4">Was nun?</h2>
+      <div class="card-tipps-grid">
+        <!-- Glossar -->
+        <div class="card-tipps-block">
+          <a href="/glossar" class="card-tipps">
+            <div class="card-image-wrapper">
+              <NuxtImg src="/img/glossarBild.jpg" class="card-image-index" />
+              <h2 class="card-title">Glossar</h2>
+            </div>
+          </a>
+          <p class="card-text">
+            Im Glossar findest du kurze Erklärungen zu wichtigen Begriffen rund
+            um Barrierefreiheit, Inklusion und digitales Design. Die Begriffe
+            sind einfach erklärt, ideal zum Nachschlagen oder schnellen
+            Verstehen.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+        </div>
+
+        <!-- Tipps -->
+        <div class="card-tipps-block">
+          <a href="/tipps" class="card-tipps">
+            <div class="card-image-wrapper">
+              <NuxtImg src="/img/tippsBild.jpg" class="card-image-index" />
+              <h2 class="card-title">Tipps und Tools</h2>
+            </div>
+          </a>
+          <p class="card-text">
+            Hier findest du praktische Tipps und nützliche Tools, um digitale
+            Barrierefreiheit direkt umzusetzen, egal ob beim Design, in der
+            Programmierung oder beim Testen. Für alle, die barrierefrei
+            entwickeln wollen.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>

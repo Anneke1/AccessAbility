@@ -1,0 +1,11 @@
+[
+  { "id": 1, "title": "Wahrnehmbar", "color": "text-cyan-900", "groupId": "1" },
+  { "id": 2, "title": "Bedienbar", "color": "text-cyan-900", "groupId": "2" },
+  {
+    "id": 3,
+    "title": "Verständlich",
+    "color": "text-cyan-900",
+    "groupId": "3"
+  },
+  { "id": 4, "title": "Robust", "color": "text-cyan-900", "groupId": "4" }
+]

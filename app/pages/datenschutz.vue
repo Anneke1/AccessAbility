@@ -1,0 +1,68 @@
+<script setup lang="ts"></script>
+
+<template>
+  <main class="inhalt">
+    <h1 id="datenschutz" class="font-bold text-6xl mb-8">Datenschutz</h1>
+
+    <!-- Allgemeine Hinweise -->
+    <section aria-labelledby="allgemeine-hinweise" class="absatz">
+      <h2 id="allgemeine-hinweise" class="section-heading">
+        Allgemeine Hinweise
+      </h2>
+      <p class="text-block">
+        Diese Website erhebt und speichert keine personenbezogenen Daten der
+        Besucherinnen und Besucher. Es gibt keine Formulare, keine
+        Kommentarfunktion, keine Cookies und kein Tracking.
+      </p>
+    </section>
+
+    <!-- Server-Logfiles -->
+    <section aria-labelledby="server-logfiles" class="absatz">
+      <h2 id="server-logfiles" class="section-heading">Server-Logfiles</h2>
+      <p class="text-block">
+        Beim Aufruf der Website überträgt Ihr Browser automatisch Daten an den
+        Hosting-Anbieter GitHub (GitHub Inc., 88 Colin P. Kelly Jr. Street, San
+        Francisco, CA 94107, USA). Dazu gehören unter anderem:
+      </p>
+      <ul class="list-standard">
+        <li>IP-Adresse</li>
+        <li>Datum und Uhrzeit der Anfrage</li>
+        <li>Browsertyp und Browserversion</li>
+        <li>Betriebssystem</li>
+        <li>Referrer-URL</li>
+      </ul>
+      <p class="text-block">
+        Diese Daten werden ausschließlich zum Zweck der technischen
+        Bereitstellung der Website verarbeitet. Eine Zusammenführung mit anderen
+        Datenquellen erfolgt nicht. Die Verarbeitung erfolgt auf Grundlage von
+        Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer
+        funktionierenden Website).
+      </p>
+      <p class="text-block">
+        GitHub verarbeitet Daten gemäß den
+        <a
+          href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement"
+          target="_blank"
+          rel="noopener"
+          class="link-blue"
+        >
+          GitHub Datenschutzrichtlinien </a
+        >.
+      </p>
+    </section>
+
+    <!-- Verantwortliche Stelle -->
+    <section aria-labelledby="verantwortliche-stelle" class="absatz">
+      <h2 id="verantwortliche-stelle" class="section-heading">
+        Verantwortliche Stelle
+      </h2>
+      <p class="text-block">Verantwortlich für die Inhalte dieser Website:</p>
+      <address class="text-block not-italic mt-2">
+        Anneke Clausen<br />
+        <a href="mailto:deine@email.de" class="link-blue"
+          >annekeclausen@gmail.com</a
+        >
+      </address>
+    </section>
+  </main>
+</template>

@@ -1,0 +1,79 @@
+<script setup lang="ts">
+useHead({
+  title: "Impressum",
+  htmlAttrs: {
+    lang: "de",
+  },
+});
+</script>
+
+<template>
+  <main class="inhalt">
+    <h1 class="text-6xl font-bold mb-8">Impressum</h1>
+
+    <!-- Herausgeberin -->
+    <section aria-labelledby="herausgeberin" class="mb-12">
+      <h2 id="herausgeberin" class="text-4xl font-semibold absatz">
+        Herausgeberin
+      </h2>
+      <address class="text-xl not-italic mt-4">
+        Dein Name<br />
+        Deine Anschrift (optional)<br />
+        <a
+          href="mailto:clausenanneke@gmail.com"
+          class="underline hover:text-blue-900 block mt-2"
+        >
+          clausenanneke@gmail.com
+        </a>
+      </address>
+    </section>
+
+    <!-- Eigene Inhalte -->
+    <section aria-labelledby="haftung-eigene-inhalte" class="mb-12">
+      <h2 id="haftung-eigene-inhalte" class="text-4xl font-semibold absatz">
+        Haftung für eigene Inhalte
+      </h2>
+      <p class="text-xl mt-4">
+        Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Dennoch
+        kann ich keine Gewähr für die Richtigkeit, Vollständigkeit oder
+        Aktualität der bereitgestellten Informationen übernehmen. Sollten Ihnen
+        Fehler oder Unstimmigkeiten auffallen, freue ich mich über eine
+        entsprechende Mitteilung an: clausenanneke@gmail.com.
+      </p>
+      <p class="text-xl mt-4">
+        Ich übernehme keinerlei Haftung für Schäden, die durch die Nutzung oder
+        Nichtnutzung der angebotenen Informationen oder durch die Nutzung
+        fehlerhafter und unvollständiger Inhalte entstehen, sofern mir nicht
+        nachweislich vorsätzliches oder grob fahrlässiges Verschulden zur Last
+        gelegt werden kann.
+      </p>
+    </section>
+
+    <!-- Externe Inhalte -->
+    <section aria-labelledby="haftung-externe-inhalte" class="mb-12">
+      <h2 id="haftung-externe-inhalte" class="text-4xl font-semibold absatz">
+        Haftung für externe Inhalte
+      </h2>
+      <p class="text-xl mt-4">
+        Als Betreiberin dieser Website bin ich nach den geltenden Gesetzen für
+        eigene Inhalte verantwortlich. Verlinkungen auf Inhalte anderer Anbieter
+        („externe Links“) sind hiervon ausgenommen. Auf deren Gestaltung und
+        Inhalte habe ich keinen Einfluss.
+      </p>
+      <p class="text-xl mt-4">
+        Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung geprüft und
+        enthielten keine rechtswidrigen Inhalte. Eine permanente inhaltliche
+        Kontrolle ist jedoch ohne konkrete Hinweise auf eine Rechtsverletzung
+        nicht zumutbar. Bei Bekanntwerden solcher Inhalte werde ich die
+        betreffenden Links umgehend entfernen.
+      </p>
+      <p class="text-xl mt-4">
+        Diese Hinweise gelten für alle auf dieser Website eingebundenen externen
+        Links. Für illegale, fehlerhafte oder unvollständige Inhalte sowie für
+        Schäden, die aus der Nutzung oder Nichtnutzung solcher Informationen
+        entstehen, haftet ausschließlich der jeweilige Anbieter der verlinkten
+        Seite.
+      </p>
+    </section>
+  </main>
+</template>
