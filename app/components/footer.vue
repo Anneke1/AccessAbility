@@ -6,7 +6,7 @@
       <div class="footer-flex">
         <!-- Branding -->
         <div>
-          <h1 class="footer-title">AccessAbility</h1>
+          <h1 class="footer-title"><span lang="en">AccessAbility</span></h1>
         </div>
 
         <!-- Kontakt -->

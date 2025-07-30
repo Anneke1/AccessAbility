@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, nextTick } from "vue";
+
+const liveRegion = ref<HTMLElement | null>(null);
 
 const { data: definitionen } = await useAsyncData("definitionen", async () => {
   const baseURL = process.server ? "http://localhost:3000" : "";
@@ -23,14 +25,37 @@ const groupedDefinitions = computed(() => {
 
 const expanded = ref<Record<string, boolean>>({});
 
-function toggleExpand(id: string) {
+async function toggleExpand(id: string) {
   expanded.value[id] = !expanded.value[id];
+
+  if (expanded.value[id]) {
+    await nextTick(); // DOM-Update abwarten
+    const def = definitionen.value?.find((d) => d.id === id);
+    if (def && liveRegion.value) {
+      liveRegion.value.textContent = `Definition von ${def.title}: ${def.description}`;
+    }
+  }
 }
 
 function scrollToId(id: string) {
   const el = document.getElementById(id);
   if (el) {
-    el.scrollIntoView({ behavior: "smooth" });
+    const rect = el.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const offset = window.innerHeight / 3;
+
+    window.scrollTo({
+      top: rect.top + scrollTop - offset,
+      behavior: "smooth",
+    });
+
+    // NEU: Fokus auf versteckten Anker setzen, damit Screenreader folgen
+    const focusTarget = document.getElementById(`focus-${id}`);
+    if (focusTarget) {
+      setTimeout(() => {
+        focusTarget.focus();
+      }, 500); // nach Scrollanimation
+    }
   }
 }
 
@@ -40,17 +65,24 @@ function scrollToTop() {
 </script>
 
 <template>
-  <main class="inhalt">
+  <main
+    class="inhalt"
+    aria-label="Glossar der Fachbegriffe zur Barrierefreiheit"
+  >
     <h1 class="text-6xl font-bold">Wörterbuch</h1>
     <p class="glossar-description">
       Im Wörterbuch findest du wichtige Begriffe, Gesetze und Richtlinien rund
       um das Thema Barrierefreiheit. Es hilft dir dabei, Fachausdrücke besser zu
-      verstehen und Zusammenhänge einzuordnen – egal ob du neu im Thema bist
-      oder gezielt etwas nachschlagen möchtest.
+      verstehen und Zusammenhänge einzuordnen, egal ob du neu im Thema bist oder
+      gezielt etwas nachschlagen möchtest.
     </p>
 
     <!-- Alphabet Navigation -->
     <nav aria-label="Alphabet Navigation" class="alphabet-nav mt-4">
+      <a href="#glossar-inhalt" class="skip-link"
+        >Direkt zum Glossar springen</a
+      >
+
       <button
         v-for="letter in alphabet"
         :key="letter"
@@ -61,19 +93,24 @@ function scrollToTop() {
         ]"
         @click="scrollToId(letter)"
         :aria-disabled="!groupedDefinitions[letter]?.length"
+        :aria-label="`Springe zu Begriffen mit ${letter}`"
       >
         {{ letter }}
       </button>
     </nav>
 
     <!-- Definitionen nach Buchstaben -->
-    <div v-for="letter in alphabet" :key="letter">
+    <div v-for="letter in alphabet" :key="letter" id="glossar-inhalt">
       <section
         v-if="groupedDefinitions[letter]?.length"
         :id="letter"
         class="definition-section"
         :aria-labelledby="`heading-${letter}`"
       >
+        <!-- Unsichtbares Fokusziel -->
+        <div :id="`focus-${letter}`" tabindex="-1" class="sr-only">
+          {{ letter }} Abschnitt beginnt hier.
+        </div>
         <h2 :id="`heading-${letter}`" class="section-heading">{{ letter }}</h2>
 
         <div class="definition-list">
@@ -82,36 +119,29 @@ function scrollToTop() {
             :id="definition.title"
             :key="definition.id"
             class="definition-card"
-            tabindex="0"
           >
-            <div class="definition-header">
-              <p class="definition-title">{{ definition.title }}</p>
-              <button
-                class="expand-button"
-                @click="toggleExpand(definition.id)"
-                :aria-expanded="expanded[definition.id] ? 'true' : 'false'"
-                :aria-controls="`desc-${definition.id}`"
+            <button
+              class="definition-header"
+              @click="toggleExpand(definition.id)"
+              :aria-expanded="expanded[definition.id] ? 'true' : 'false'"
+            >
+              <p class="definition-title" :id="`title-${definition.id}`">
+                {{ definition.title }}
+              </p>
+              <span
+                class="chevron-symbol"
+                :class="{ rotated: expanded[definition.id] }"
               >
-                <img
-                  :src="
-                    expanded[definition.id]
-                      ? '/img/arrow-down.png'
-                      : '/img/arrow-right.png'
-                  "
-                  alt=""
-                  class="chevron-img"
-                />
-              </button>
-            </div>
+                ▸
+              </span>
+            </button>
 
             <div class="definition-divider"></div>
 
             <div
               v-show="expanded[definition.id]"
-              class="definition-description"
               :id="`desc-${definition.id}`"
-              role="region"
-              :aria-hidden="!expanded[definition.id]"
+              :aria-labelledby="`title-${definition.id}`"
             >
               {{ definition.description }}
 
@@ -129,7 +159,7 @@ function scrollToTop() {
         </div>
       </section>
     </div>
-
+    <div aria-live="polite" class="sr-only" ref="liveRegion"></div>
     <!-- Scroll to Top Button -->
     <button
       class="scroll-top-button"
