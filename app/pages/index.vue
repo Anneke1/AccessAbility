@@ -24,7 +24,6 @@
     </div>
 
     <!-- Warum Barrierefreiheit -->
-    <!-- Warum Barrierefreiheit -->
     <section
       aria-labelledby="warum-barrierefreiheit"
       class="inhaltSeite mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start"
@@ -44,13 +43,13 @@
           Etwa zehn Millionen Menschen in Deutschland leben mit einer Form von
           Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
           Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
-          sind (z. B. ohne Alternativtexte, unlesbar für Screenreader oder nur
-          per Maus bedienbar), schließt das diese Menschen aktiv aus – nicht nur
+          sind (z. B. ohne Alternativtexte, unlesbar für Screenreader oder nur
+          per Maus bedienbar), schließt das diese Menschen aktiv aus, nicht nur
           bei Freizeitangeboten, sondern auch bei Bildung, Arbeit und
           staatlichen Leistungen.
         </p>
         <p class="text-xl text-block">
-          Barrierefreiheit ist in der UN‑Behindertenrechtskonvention verankert,
+          Barrierefreiheit ist in der UN-Behindertenrechtskonvention verankert,
           die Deutschland ratifiziert hat. Sie verpflichtet uns, digitale
           Angebote so zu gestalten, dass sie unabhängig von körperlichen oder
           kognitiven Fähigkeiten zugänglich sind. Auch nationale Regelungen wie
@@ -75,9 +74,18 @@
       </div>
     </section>
 
-    <!-- Lisa Erfahrungsbericht -->
-    <section class="inhaltSeite">
+    <!-- Lisa Erfahrungsbericht mit Bild -->
+    <section class="inhaltSeite mt-10">
       <h2 class="section-heading">Hallo ich bin Lisa.</h2>
+
+      <!-- Bild unter der Überschrift -->
+      <NuxtImg
+        src="/img/bericht.jpg"
+        alt="Symbolbild für Lisas Erfahrungsbericht"
+        class="w-100 h-100 rounded-xl object-cover"
+      />
+
+      <!-- Text unter dem Bild, ganz links -->
       <p class="text-xl text-block">
         ich bin 32 Jahre alt und von Geburt an stark sehbehindert. Ich nutze
         täglich das Internet, für meine Arbeit, zum Einkaufen, zur Information
@@ -94,10 +102,6 @@
         abgesetzt. Aber mein Screenreader braucht klare Strukturinformationen,
         um mir zu sagen, wo ich bin und wie ich schnell zum gewünschten Inhalt
         komme. Auch Bilder ohne Alternativtexte sind ein häufiges Hindernis.
-        Wenn ich etwa auf einer Online-Shopping-Seite unterwegs bin und das Bild
-        eines Produkts nur als „image123.jpg“ beschrieben ist, kann ich nicht
-        erkennen, was dort gezeigt wird. Das macht selbstständiges Einkaufen
-        nahezu unmöglich.
       </p>
       <p class="text-xl text-block">
         Formulare sind ein weiteres Beispiel: Viele haben keine korrekt
@@ -112,11 +116,14 @@
         keine barrierefreie Alternative (z.B. Audio-Captchas) gibt, bleibe ich
         bei der Anmeldung einfach außen vor. Das frustriert mich, denn es zeigt
         mir immer wieder: Das Internet ist nicht für alle gemacht, obwohl es das
-        sein sollte. Gute Beispiele gibt es zwar, aber sie sind leider noch die
-        Ausnahme. Ich wünsche mir, dass Entwickler*innen und Website-Betreiber
+        sein sollte.
+      </p>
+      <p class="text-xl text-block">
+        Gute Beispiele gibt es zwar, aber sie sind leider noch die Ausnahme. Ich
+        wünsche mir, dass Entwickler*innen und Website-Betreiber
         Barrierefreiheit nicht als Sonderfall, sondern als Standard betrachten.
         Schließlich profitieren alle von klarer Struktur, verständlicher Sprache
-        und zugänglichem Design, nicht nur Menschen mit Behinderung.*
+        und zugänglichem Design, nicht nur Menschen mit Behinderung.
       </p>
     </section>
 
