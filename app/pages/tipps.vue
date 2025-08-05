@@ -188,9 +188,10 @@ const handleToggle = (
       >
         <!-- Abschnittstitel -->
         <div
-          class="px-4 py-3 bg-gray-100 text-xl font-bold"
+          class="px-4 py-3 bg-gray-100 text-xl font-bold flex items-center gap-2"
           :class="section.color"
         >
+          <img v-if="section.image" :src="section.image" class="w-6 h-6" />
           {{ section.title }}
         </div>
 
@@ -205,7 +206,14 @@ const handleToggle = (
             <summary
               class="cursor-pointer px-4 py-3 hover:bg-gray-50 flex justify-between items-center text-base font-semibold"
             >
-              <span>{{ subcategory.title }}</span>
+              <div class="flex items-center gap-2">
+                <img
+                  v-if="subcategory.image"
+                  :src="subcategory.image"
+                  class="w-5 h-5"
+                />
+                <span>{{ subcategory.title }}</span>
+              </div>
               <span
                 class="text-gray-400 transform transition-transform duration-200 group-open:rotate-180"
               >

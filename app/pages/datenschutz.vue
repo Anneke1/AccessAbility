@@ -6,10 +6,14 @@
 
     <!-- Allgemeine Hinweise -->
     <section aria-labelledby="allgemeine-hinweise" class="absatz">
-      <h2 id="allgemeine-hinweise" class="section-heading">
+      <h2
+        id="allgemeine-hinweise"
+        class="section-heading"
+        contenteditable="false"
+      >
         Allgemeine Hinweise
       </h2>
-      <p class="text-block">
+      <p class="text-block" contenteditable="false">
         Diese Website erhebt und speichert keine personenbezogenen Daten der
         Besucherinnen und Besucher. Es gibt keine Formulare, keine
         Kommentarfunktion, keine Cookies und kein Tracking.
@@ -19,10 +23,11 @@
     <!-- Server-Logfiles -->
     <section aria-labelledby="server-logfiles" class="absatz">
       <h2 id="server-logfiles" class="section-heading">Server-Logfiles</h2>
-      <p class="text-block">
+      <p class="text-block" contenteditable="false">
         Beim Aufruf der Website überträgt Ihr Browser automatisch Daten an den
         Hosting-Anbieter GitHub (GitHub Inc., 88 Colin P. Kelly Jr. Street, San
-        Francisco, CA 94107, USA). Dazu gehören unter anderem:
+        Francisco, CA 94107, USA). Dazu gehören unter anderem die folgenden
+        technischen Daten:
       </p>
       <ul class="list-standard">
         <li>IP-Adresse</li>
@@ -46,7 +51,7 @@
           rel="noopener"
           class="link-blue"
         >
-          GitHub Datenschutzrichtlinien </a
+          Datenschutzrichtlinien von GitHub </a
         >.
       </p>
     </section>
@@ -59,8 +64,8 @@
       <p class="text-block">Verantwortlich für die Inhalte dieser Website:</p>
       <address class="text-block not-italic mt-2">
         Anneke Clausen<br />
-        <a href="mailto:deine@email.de" class="link-blue"
-          >annekeclausen@gmail.com</a
+        <a href="mailto:annekeclausen@gmail.com" class="link-blue"
+          >E-Mail an Anneke Clausen</a
         >
       </address>
     </section>
