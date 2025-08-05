@@ -19,7 +19,7 @@
   },
   {
     "id": "Unterscheidbar",
-    "title": "Unterscheidbarkeit",
+    "title": "Unterscheidbar",
     "groupId": "1.4",
     "image": "./img/unterschied.png"
   },
@@ -57,13 +57,13 @@
 
   {
     "id": "Lesbar",
-    "title": "Lesbarkeit",
+    "title": "Lesbar",
     "groupId": "3.1",
     "image": "./img/buch.png"
   },
   {
     "id": "Vorhersehbar",
-    "title": "Vorhersehbarkeit",
+    "title": "Vorhersehbar",
     "groupId": "3.2",
     "image": "./img/wahrsagen.png"
   },

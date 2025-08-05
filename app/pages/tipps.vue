@@ -215,8 +215,8 @@ const handleToggle = (
                 <span>{{ subcategory.title }}</span>
               </div>
               <img
-                src="/img/open.png"
-                class="w-6 h-6 transition-transform duration-200 transform group-open:rotate-180"
+                src="../public/img/open.png"
+                class="w-8 h-8 transition-transform duration-200 transform group-open:rotate-180"
               />
             </summary>
 
@@ -227,7 +227,7 @@ const handleToggle = (
                 :open="openTipps.includes(tip.id)"
                 @toggle="handleToggle($event, tip.id)"
                 :id="`tipp-${tip.id}`"
-                class="group/tip border border-gray-100 rounded"
+                class="group border border-gray-100 rounded"
                 :key="tip.id"
               >
                 <summary
@@ -236,10 +236,11 @@ const handleToggle = (
                   <div class="flex gap-2 items-center">
                     <span>{{ tip.title }}</span>
                   </div>
-                  <img
-                    src="/img/open.png"
-                    class="w-6 h-6 transition-transform duration-200 transform group/tip-open:rotate-180"
-                  />
+                  <span
+                    class="text-gray-400 transform transition-transform duration-200 group-open:rotate-180"
+                  >
+                    ▾
+                  </span>
                 </summary>
                 <div class="ml-4 mt-2 mb-2 text-sm text-gray-700 text-justify">
                   <div class="tipp-inhalt space-y-4">
