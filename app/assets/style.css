@@ -217,10 +217,12 @@
   display: block;
 }
 .card-image-tipps {
+  object-fit: contain; /* oder 'cover' je nach gewünschtem Verhalten */
   width: 100%;
-  height: 12rem;
-  object-fit: cover;
+  height: auto;
+  max-height: 150px; /* optional, um eine feste Höhe zu begrenzen */
   display: block;
+  margin: 0 auto;
 }
 
 /* Titel über Bild */
