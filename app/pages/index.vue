@@ -101,7 +101,7 @@
         Ausnahme. Ich wünsche mir, dass Entwickler*innen und Website-Betreiber
         Barrierefreiheit nicht als Sonderfall, sondern als Standard betrachten.
         Schließlich profitieren alle von klarer Struktur, verständlicher Sprache
-        und zugänglichem Design, nicht nur Menschen mit Behinderung.
+        und zugänglichem Design, nicht nur Menschen mit Behinderung.*
       </p>
     </section>
 
@@ -141,5 +141,13 @@
         </div>
       </div>
     </section>
+    <p class="text-xl text-block inhalt">
+      *Dieser Erfahrungsbericht ist fiktiv und wurde erstellt, um typische
+      Erfahrungen, Herausforderungen und Entscheidungswege beispielhaft
+      darzustellen. Auch wenn die geschilderte Geschichte auf realitätsnahen
+      Situationen basiert, handelt es sich nicht um eine echte Person oder ein
+      tatsächliches Ereignis. Falls ihr eigene Erfahrungen teilen möchtet oder
+      Fragen habt, meldet euch gern!
+    </p>
   </main>
 </template>
