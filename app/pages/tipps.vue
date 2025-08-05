@@ -191,7 +191,7 @@ const handleToggle = (
           class="px-4 py-3 bg-gray-100 text-xl font-bold flex items-center gap-2"
           :class="section.color"
         >
-          <img v-if="section.image" :src="section.image" class="w-6 h-6" />
+          <img v-if="section.image" :src="section.image" class="w-14 h-14" />
           {{ section.title }}
         </div>
 
@@ -210,15 +210,14 @@ const handleToggle = (
                 <img
                   v-if="subcategory.image"
                   :src="subcategory.image"
-                  class="w-5 h-5"
+                  class="w-14 h-14"
                 />
                 <span>{{ subcategory.title }}</span>
               </div>
-              <span
-                class="text-gray-400 transform transition-transform duration-200 group-open:rotate-180"
-              >
-                ▾
-              </span>
+              <img
+                src="../public/img/open.png"
+                class="w-8 h-8 transition-transform duration-200 transform group-open:rotate-180"
+              />
             </summary>
 
             <!-- Tipps innerhalb der Subkategorie -->

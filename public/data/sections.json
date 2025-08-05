@@ -4,27 +4,27 @@
     "title": "Wahrnehmbar",
     "color": "text-cyan-900",
     "groupId": "1",
-    "image": "/public/img/auge.png"
+    "image": "./img/auge.png"
   },
   {
     "id": 2,
     "title": "Bedienbar",
     "color": "text-cyan-900",
     "groupId": "2",
-    "image": "/public/img/Steuer.png"
+    "image": "./img/Steuer.png"
   },
   {
     "id": 3,
     "title": "Verständlich",
     "color": "text-cyan-900",
     "groupId": "3",
-    "image": "/public/img/Verständlichkeit.png"
+    "image": "./img/Verständlichkeit.png"
   },
   {
     "id": 4,
     "title": "Robust",
     "color": "text-cyan-900",
     "groupId": "4",
-    "image": "/public/img/Werkzeug.png"
+    "image": "./img/Werkzeug.png"
   }
 ]
