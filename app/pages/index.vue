@@ -24,40 +24,55 @@
     </div>
 
     <!-- Warum Barrierefreiheit -->
-    <section aria-labelledby="warum-barrierefreiheit" class="inhaltSeite mt-10">
-      <h2 id="warum-barrierefreiheit" class="section-heading">
-        Warum Barrierefreiheit?
-      </h2>
-      <p class="text-xl text-block mt-4">
-        Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht. Wenn
-        du Software oder Websites entwickelst, hast du einen direkten Einfluss
-        darauf, ob Menschen ein digitales Angebot nutzen können oder
-        ausgeschlossen werden. Genau deshalb ist Barrierefreiheit ethisch und
-        politisch relevant.
-      </p>
-      <p class="text-xl text-block">
-        Mehr als zehn Millionen Menschen in Deutschland leben mit einer Form von
-        Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
-        Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
-        sind z.B. ohne Alternativtexte, unlesbar für Screenreader oder nur per
-        Maus bedienbar, schließt das diese Menschen aktiv aus. Das betrifft dann
-        nicht nur Freizeitangebote, sondern auch Bildung, Arbeit, Wohnen und
-        staatliche Leistungen.
-      </p>
-      <p class="text-xl text-block">
-        Barrierefreiheit ist in der UN-Behindertenrechtskonvention verankert,
-        die Deutschland unterzeichnet hat. Sie verpflichtet uns, digitale
-        Angebote so zu gestalten, dass sie für alle zugänglich sind, unabhängig
-        von Fähigkeiten. Auch Gesetze wie das Barrierefreiheitsstärkungsgesetz
-        (BFSG) greifen diese Verpflichtung auf.
-      </p>
-      <p class="text-xl text-block">
-        Doch über Gesetze hinaus geht es um Verantwortung. In einer digitalen
-        Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
-        studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt wird.
-        Barrierefreiheit ist kein „nice to have“, sondern ein Zeichen von
-        Respekt, Gerechtigkeit und Professionalität.
-      </p>
+    <!-- Warum Barrierefreiheit -->
+    <section
+      aria-labelledby="warum-barrierefreiheit"
+      class="inhaltSeite mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start"
+    >
+      <!-- Text links -->
+      <div>
+        <h2 id="warum-barrierefreiheit" class="section-heading">
+          Warum Barrierefreiheit?
+        </h2>
+        <p class="text-xl text-block mt-4">
+          Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht.
+          Wenn du Software oder Websites entwickelst, hast du einen direkten
+          Einfluss darauf, ob Menschen ein digitales Angebot nutzen können oder
+          ausgeschlossen werden.
+        </p>
+        <p class="text-xl text-block">
+          Etwa zehn Millionen Menschen in Deutschland leben mit einer Form von
+          Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
+          Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
+          sind (z. B. ohne Alternativtexte, unlesbar für Screenreader oder nur
+          per Maus bedienbar), schließt das diese Menschen aktiv aus – nicht nur
+          bei Freizeitangeboten, sondern auch bei Bildung, Arbeit und
+          staatlichen Leistungen.
+        </p>
+        <p class="text-xl text-block">
+          Barrierefreiheit ist in der UN‑Behindertenrechtskonvention verankert,
+          die Deutschland ratifiziert hat. Sie verpflichtet uns, digitale
+          Angebote so zu gestalten, dass sie unabhängig von körperlichen oder
+          kognitiven Fähigkeiten zugänglich sind. Auch nationale Regelungen wie
+          das Barrierefreiheitsstärkungsgesetz (BFSG) greifen diese
+          Verpflichtung auf.
+        </p>
+        <p class="text-xl text-block">
+          Über Gesetze hinaus geht es um Verantwortung. In einer digitalen
+          Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
+          studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt von
+          morgen sein wird. Barrierefreiheit ist kein „nice to have“, sondern
+          ein Zeichen von Respekt, Gerechtigkeit und digitaler Kompetenz.
+        </p>
+      </div>
+
+      <!-- Bild rechts -->
+      <div class="w-full">
+        <NuxtImg
+          src="/img/Diagramm.jpg"
+          class="w-full h-auto rounded-xl shadow-md object-cover"
+        />
+      </div>
     </section>
 
     <!-- Lisa Erfahrungsbericht -->
