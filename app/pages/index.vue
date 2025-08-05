@@ -69,8 +69,8 @@
       <!-- Bild rechts -->
       <div class="w-full">
         <NuxtImg
-          src="/img/Diagramm.jpg"
-          class="w-full h-auto rounded-xl shadow-md object-cover"
+          src="/img/Diagramm.png"
+          class="w-full h-auto rounded-xl object-cover"
         />
       </div>
     </section>
