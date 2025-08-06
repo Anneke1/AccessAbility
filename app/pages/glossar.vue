@@ -1,7 +1,52 @@
 <script setup lang="ts">
-import { ref, computed, nextTick } from "vue";
+import { ref, computed, nextTick, onMounted, watch } from "vue";
 
 const liveRegion = ref<HTMLElement | null>(null);
+
+onMounted(async () => {
+  const hash = decodeURIComponent(window.location.hash.slice(1));
+  if (!hash) return;
+
+  // Versuch, das Ziel zu finden
+  const el = await waitForElementById(hash);
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  // Scrollen: zum Element + 20rem nach oben
+  const offsetRem = 20;
+  const offsetPx =
+    offsetRem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+  window.scrollTo({
+    top: rect.top + scrollTop - offsetPx,
+    behavior: "smooth",
+  });
+  // Optional: Highlight
+  el.classList.add("highlighted");
+  setTimeout(() => el.classList.remove("highlighted"), 2000);
+});
+
+async function waitForElementById(
+  id: string,
+  timeout = 5000
+): Promise<HTMLElement> {
+  const interval = 50;
+  let waited = 0;
+
+  return new Promise((resolve, reject) => {
+    const check = () => {
+      const el = document.getElementById(id);
+      if (el) return resolve(el);
+
+      waited += interval;
+      if (waited >= timeout) return reject(`Element #${id} nicht gefunden`);
+      setTimeout(check, interval);
+    };
+    check();
+  });
+}
 
 const { data: definitionen } = await useAsyncData("definitionen", async () => {
   const baseURL = process.server ? "http://localhost:3000" : "";
@@ -57,10 +102,6 @@ function scrollToId(id: string) {
       }, 500); // nach Scrollanimation
     }
   }
-}
-
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 </script>
 

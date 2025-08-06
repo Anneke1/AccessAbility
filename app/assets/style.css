@@ -493,7 +493,7 @@ input {
 
 .result-box {
   border: 20px solid schwarz;
-  padding: 15px;
+  padding: 4px;
   border-radius: 8px;
 }
 
@@ -622,6 +622,7 @@ a:focus-visible {
   box-sizing: border-box;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   outline-offset: 3px;
+  scroll-margin-top: 20rem;
 }
 
 /* Überschrift und Button */
@@ -646,6 +647,19 @@ a:focus-visible {
   font-size: 1.15rem;
   line-height: 1.5;
   text-align: justify;
+}
+
+.highlighted {
+  animation: highlightFade 1s ease-out;
+}
+
+@keyframes highlightFade {
+  0% {
+    background-color: #004a5b;
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .additional-info {
