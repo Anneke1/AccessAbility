@@ -15,22 +15,43 @@ const {
   data: definitionen,
   pending,
   error,
-} = await useFetch("/data/definitionen.json");
+} = await useFetch("/data/definitionen.json", { server: false });
+
+const { data: tippsDaten, error: tippsError } = await useFetch(
+  "/data/tippsDaten.json",
+  { server: false }
+);
+
+const alleDaten = computed(() => {
+  const defs = definitionen.value || [];
+  const tipps = tippsDaten.value || [];
+
+  const mappedDefs = defs.map((item) => ({
+    ...item,
+    type: "definition",
+  }));
+
+  const mappedTipps = tipps.map((item) => ({
+    id: item.id,
+    title: item.title,
+    type: "tipp",
+  }));
+
+  return [...mappedDefs, ...mappedTipps];
+});
 
 // Filterte Ergebnisse:
 const results = computed(() => {
-  if (!definitionen.value) return [];
+  if (!alleDaten.value) return [];
   const q = query.value.toLowerCase();
-  return definitionen.value.filter((item) =>
-    item.title.toLowerCase().includes(q)
-  );
+  return alleDaten.value.filter((item) => item.title.toLowerCase().includes(q));
 });
 
 // Vorschläge für Autocomplete (nur Titel, max 5)
 const suggestions = computed(() => {
-  if (!definitionen.value || !query.value) return [];
+  if (!alleDaten.value || !query.value) return [];
   const q = query.value.toLowerCase();
-  return definitionen.value
+  return alleDaten.value
     .filter((item) => item.title.toLowerCase().startsWith(q))
     .slice(0, 5);
 });
@@ -123,9 +144,12 @@ function onInput() {
       <div v-if="error" class="error">Fehler beim Laden der Daten</div>
 
       <div v-if="results.length" class="results">
-        <div v-for="item in results" :key="item.id" class="result-box">
-          <!-- Wenn im Glossar vorhanden -->
-          <template v-if="findDefinitionByTitle(item.title)">
+        <div
+          v-for="item in results"
+          :key="`${item.type}-${item.id}`"
+          class="result-box"
+        >
+          <template v-if="item.type === 'definition'">
             <div class="glossar-link-box">
               Glossar &gt;
               <NuxtLink
@@ -137,9 +161,13 @@ function onInput() {
             </div>
           </template>
 
-          <!-- Falls kein Glossar-Eintrag vorhanden -->
-          <template v-else>
-            {{ item.title }}
+          <template v-else-if="item.type === 'tipp'">
+            <div class="glossar-link-box">
+              Tipps &gt;
+              <NuxtLink :to="`/tipps#tipp-${item.id}`" class="glossar-link">
+                {{ item.title }}
+              </NuxtLink>
+            </div>
           </template>
         </div>
       </div>
