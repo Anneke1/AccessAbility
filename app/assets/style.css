@@ -127,6 +127,36 @@
   }
 }
 
+.flow-image-right {
+  float: right;
+  max-width: 500px;
+  margin: 0 0 1.5rem 1.5rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* Floatende Bilder – links */
+.flow-image-left {
+  float: left;
+  max-width: 400px;
+  margin: 0 1.5rem 0 0;
+  border-radius: 1rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive Verhalten: float aufheben und zentrieren */
+@media (max-width: 768px) {
+  .flow-image-left,
+  .flow-image-right {
+    float: none;
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 100%;
+  }
+}
+
 .about-flex {
   display: flex;
   align-items: flex-stretch;

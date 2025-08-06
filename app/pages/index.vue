@@ -24,70 +24,64 @@
     </div>
 
     <!-- Warum Barrierefreiheit -->
-    <section
-      aria-labelledby="warum-barrierefreiheit"
-      class="inhaltSeite mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start"
-    >
+    <section aria-labelledby="warum-barrierefreiheit" class="inhaltSeite mt-10">
       <!-- Text links -->
       <div>
         <h2 id="warum-barrierefreiheit" class="section-heading">
           Warum Barrierefreiheit?
         </h2>
-        <p class="text-xl text-block mt-4">
-          Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht.
-          Wenn du Software oder Websites entwickelst, hast du einen direkten
-          Einfluss darauf, ob Menschen ein digitales Angebot nutzen können oder
-          ausgeschlossen werden.
-        </p>
-        <p class="text-xl text-block">
-          Etwa zehn Millionen Menschen in Deutschland leben mit einer Form von
-          Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
-          Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
-          sind (z. B. ohne Alternativtexte, unlesbar für Screenreader oder nur
-          per Maus bedienbar), schließt das diese Menschen aktiv aus, nicht nur
-          bei Freizeitangeboten, sondern auch bei Bildung, Arbeit und
-          staatlichen Leistungen.
-        </p>
-        <p class="text-xl text-block">
-          Barrierefreiheit ist in der UN-Behindertenrechtskonvention verankert,
-          die Deutschland ratifiziert hat. Sie verpflichtet uns, digitale
-          Angebote so zu gestalten, dass sie unabhängig von körperlichen oder
-          kognitiven Fähigkeiten zugänglich sind. Auch nationale Regelungen wie
-          das Barrierefreiheitsstärkungsgesetz (BFSG) greifen diese
-          Verpflichtung auf.
-        </p>
-        <p class="text-xl text-block">
-          Über Gesetze hinaus geht es um Verantwortung. In einer digitalen
-          Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
-          studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt von
-          morgen sein wird. Barrierefreiheit ist kein „nice to have“, sondern
-          ein Zeichen von Respekt, Gerechtigkeit und digitaler Kompetenz.
-        </p>
       </div>
 
       <!-- Bild rechts -->
-      <div class="w-full">
-        <NuxtImg
-          src="/img/Diagramm.png"
-          class="w-full h-auto rounded-xl object-cover"
-        />
-      </div>
+
+      <NuxtImg src="/img/Diagramm.png" class="flow-image-right" />
+
+      <p class="text-xl text-block mt-4">
+        Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht. Wenn
+        du Software oder Websites entwickelst, hast du einen direkten Einfluss
+        darauf, ob Menschen ein digitales Angebot nutzen können oder
+        ausgeschlossen werden.
+      </p>
+      <p class="text-xl text-block">
+        Etwa zehn Millionen Menschen in Deutschland leben mit einer Form von
+        Behinderung. Viele sind auf digitale Hilfsmittel wie Screenreader oder
+        Sprachsteuerung angewiesen. Wenn Websites nicht barrierefrei gestaltet
+        sind (z. B. ohne Alternativtexte, unlesbar für Screenreader oder nur per
+        Maus bedienbar), schließt das diese Menschen aktiv aus, nicht nur bei
+        Freizeitangeboten, sondern auch bei Bildung, Arbeit und staatlichen
+        Leistungen.
+      </p>
+      <p class="text-xl text-block">
+        Barrierefreiheit ist in der UN-Behindertenrechtskonvention verankert,
+        die Deutschland ratifiziert hat. Sie verpflichtet uns, digitale Angebote
+        so zu gestalten, dass sie unabhängig von körperlichen oder kognitiven
+        Fähigkeiten zugänglich sind. Auch nationale Regelungen wie das
+        Barrierefreiheitsstärkungsgesetz (BFSG) greifen diese Verpflichtung auf.
+      </p>
+      <p class="text-xl text-block">
+        Über Gesetze hinaus geht es um Verantwortung. In einer digitalen
+        Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
+        studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt von
+        morgen sein wird. Barrierefreiheit ist kein „nice to have“, sondern ein
+        Zeichen von Respekt, Gerechtigkeit und digitaler Kompetenz.
+      </p>
     </section>
 
     <!-- Lisa Erfahrungsbericht mit Bild -->
     <section class="inhaltSeite mt-10">
-      <h2 class="section-heading">Hallo ich bin Lisa.</h2>
+      <h2 class="section-heading mb-4">Hallo ich bin Lisa.</h2>
 
       <!-- Bild unter der Überschrift -->
+
       <NuxtImg
         src="/img/bericht.jpg"
         alt="Symbolbild für Lisas Erfahrungsbericht"
-        class="w-100 h-100 rounded-xl object-cover"
+        class="flow-image-left"
       />
 
       <!-- Text unter dem Bild, ganz links -->
-      <p class="text-xl text-block">
-        ich bin 32 Jahre alt und von Geburt an stark sehbehindert. Ich nutze
+      <p class="text-xl text-block mt-4">
+        Ich bin 32 Jahre alt und von Geburt an stark sehbehindert. Ich nutze
         täglich das Internet, für meine Arbeit, zum Einkaufen, zur Information
         und für soziale Kontakte. Dabei bin ich auf Hilfsmittel wie eine
         Screenreader-Software und die Tastaturnavigation angewiesen. Leider
