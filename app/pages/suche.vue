@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 const query = ref("");
 const showResults = ref(false);
 const showSuggestions = ref(false);
+const activeSuggestionIndex = ref(-1);
 
 interface Definition {
   id: number;
@@ -34,11 +35,6 @@ const suggestions = computed(() => {
     .slice(0, 5);
 });
 
-function onInput() {
-  showResults.value = false; // Keine Ergebnisse anzeigen, solange nicht bestätigt
-  showSuggestions.value = !!query.value && suggestions.value.length > 0;
-}
-
 function triggerSearch() {
   if (!query.value) return;
   showSuggestions.value = false;
@@ -54,6 +50,35 @@ function selectSuggestion(s: Definition) {
 function findDefinitionByTitle(title: string) {
   return definitionen.value?.some((def) => def.title === title);
 }
+
+function onKeyDown(event: KeyboardEvent) {
+  if (!showSuggestions.value || !suggestions.value.length) return;
+
+  if (event.key === "ArrowDown") {
+    event.preventDefault();
+    activeSuggestionIndex.value =
+      (activeSuggestionIndex.value + 1) % suggestions.value.length;
+  } else if (event.key === "ArrowUp") {
+    event.preventDefault();
+    activeSuggestionIndex.value =
+      (activeSuggestionIndex.value - 1 + suggestions.value.length) %
+      suggestions.value.length;
+  } else if (event.key === "Enter") {
+    if (activeSuggestionIndex.value >= 0) {
+      selectSuggestion(suggestions.value[activeSuggestionIndex.value]);
+    } else {
+      triggerSearch();
+    }
+  } else if (event.key === "Escape") {
+    showSuggestions.value = false;
+  }
+}
+
+function onInput() {
+  activeSuggestionIndex.value = -1;
+  showResults.value = false;
+  showSuggestions.value = !!query.value && suggestions.value.length > 0;
+}
 </script>
 
 <template>
@@ -63,6 +88,7 @@ function findDefinitionByTitle(title: string) {
         v-model="query"
         placeholder="Suchbegriff eingeben..."
         @input="onInput"
+        @keydown="onKeyDown"
         @keydown.enter.prevent="triggerSearch"
         autocomplete="off"
       />
@@ -72,10 +98,15 @@ function findDefinitionByTitle(title: string) {
     <!-- Vorschläge nur beim Tippen, ohne Ergebnisse -->
     <ul v-if="showSuggestions" class="suggestions-list">
       <li
-        v-for="s in suggestions"
+        v-for="(s, index) in suggestions"
         :key="s.id"
         @click="selectSuggestion(s)"
-        class="suggestion-item"
+        :class="[
+          'suggestion-item',
+          { 'active-suggestion': index === activeSuggestionIndex },
+        ]"
+        :aria-selected="index === activeSuggestionIndex"
+        role="option"
       >
         {{ s.title }}
       </li>

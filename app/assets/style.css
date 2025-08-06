@@ -156,6 +156,10 @@
     max-width: 100%;
   }
 }
+.suggestion-item.active-suggestion {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
 
 .about-flex {
   display: flex;
