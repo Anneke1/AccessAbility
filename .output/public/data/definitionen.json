@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "title": "A11y",
+    "description": "A11y ist die Abkürzung für das englische Wort Accessibility, also Barrierefreiheit. Die Zahl „11“ steht dabei für die elf Buchstaben zwischen dem ersten „A“ und dem letzten „y“. Im digitalen Bereich beschreibt A11y alle Maßnahmen, die dafür sorgen, dass Websites, Apps und andere digitale Inhalte für möglichst alle Menschen nutzbar sind, auch für Menschen mit Behinderungen. Dazu gehören z.B. klare Strukturen, ausreichend Kontraste, Tastaturbedienbarkeit oder Alternativtexte für Bilder. Ziel von A11y ist es, digitale Angebote so zu gestalten, dass niemand ausgeschlossen wird."
+  },
+  {
+    "id": 2,
+    "title": "Accessibility",
+    "description": "Accessibility ist der englische Begriff für Barrierefreiheit.",
+    "link": "Barrierefreiheit"
+  },
+  {
+    "id": 3,
+    "title": "Accessibility Audit",
+    "description": "Ein Accessibility Audit ist eine systematische Überprüfung, ob eine Website, App oder digitale Anwendung barrierefrei gestaltet ist. Dabei wird untersucht, ob Menschen mit Einschränkungen die Inhalte ohne Einschränkungen nutzen können, zum Beispiel mit der Tastatur, einem Screenreader oder anderen Hilfsmitteln. Solche Audits prüfen technische, gestalterische und inhaltliche Aspekte und orientieren sich meist an anerkannten Standards wie den WCAG. Am Ende gibt es einen Bericht, der Probleme aufzeigt und Verbesserungsvorschläge enthält."
+  },
+  {
+    "id": 4,
+    "title": "Accessibility Statement",
+    "description": "Ein Accessibility Statement ist eine öffentliche Erklärung, in der eine Organisation beschreibt, wie barrierefrei ihre Website oder digitale Angebote sind. Es informiert Nutzer*innen darüber, welche Maßnahmen für bessere Zugänglichkeit getroffen wurden, welche Standards eingehalten werden und wie man bei Problemen Unterstützung bekommt."
+  },
+  {
+    "id": 5,
+    "title": "Accessibility Tree",
+    "description": "Der Accessibility Tree ist eine Darstellung der Struktur einer Webseite, die speziell für Hilfsmittel wie Screenreader erstellt wird. Er zeigt, welche Elemente auf der Seite für Menschen mit Einschränkungen relevant sind und wie diese Elemente zusammenhängen. So können assistive Technologien die Inhalte besser verstehen und vorlesen. Der Accessibility Tree wird automatisch aus dem normalen Seitenaufbau erzeugt, berücksichtigt aber nur die wichtigen Informationen für die Barrierefreiheit."
+  },
+  {
+    "id": 6,
+    "title": "AChecker",
+    "description": "AChecker ist ein kostenloses Online-Tool, das Websites auf Barrierefreiheit prüft. Es erkennt Fehler und Probleme, die verhindern können, dass Menschen mit Einschränkungen eine Seite gut nutzen können. AChecker analysiert die Webseite anhand von Standards wie den WCAG und zeigt auf, wo Verbesserungen nötig sind. So hilft das Tool Entwickler:innen und Designer:innen, digitale Angebote zugänglicher zu machen."
+  },
+  {
+    "id": 7,
+    "title": "Alternativer Text (Alt-Text)",
+    "description": "Ein alternativer Text ist eine kurze Beschreibung, die anstelle eines Bildes angezeigt oder vorgelesen wird, wenn das Bild nicht sichtbar ist. Er hilft Menschen mit Seheinschränkungen, den Inhalt von Bildern zu verstehen, zum Beispiel durch Screenreader. Alt-Texte sind wichtig, damit alle Nutzer:innen die Informationen auf einer Website gleich gut wahrnehmen können."
+  },
+  {
+    "id": 8,
+    "title": "Anpassbare Inhalte",
+    "description": "Anpassbare Inhalte sind digitale Texte, Bilder oder Oberflächen, die Nutzer:innen individuell verändern können. Zum Beispiel können Schriftgrößen, Farben oder Layouts so eingestellt werden, dass sie besser lesbar und leichter bedienbar sind. Das hilft besonders Menschen mit Seh- oder Lernschwierigkeiten, Inhalte besser zu verstehen und zu nutzen"
+  },
+  {
+    "id": 9,
+    "title": "ARIA (Accessible Rich Internet Applications)",
+    "description": "ARIA ist eine Sammlung von speziellen Code-Befehlen, die Entwickler:innen in Websites und Apps einbauen, um diese für Menschen mit Einschränkungen besser zugänglich zu machen. Mit ARIA können zum Beispiel zusätzliche Informationen über die Funktion oder den Zustand von Elementen bereitgestellt werden, damit Hilfsprogramme wie Screenreader die Seite besser verstehen und vorlesen können."
+  },
+  {
+    "id": 10,
+    "title": "ARIA-Label",
+    "description": "Ein ARIA-Label ist ein versteckter Text, den Entwickler:innen in den Code einfügen, um wichtigen Elementen auf einer Webseite eine klare Beschreibung zu geben. Diese Beschreibung wird von Hilfsmitteln wie Screenreadern vorgelesen, damit Menschen mit Seheinschränkungen besser verstehen, was ein Button, Link oder Formularfeld bedeutet, auch wenn kein sichtbarer Text vorhanden ist."
+  },
+  {
+    "id": 11,
+    "title": "ARIA-Rollen",
+    "description": "ARIA-Rollen sind Beschreibungen, die Entwickler:innen Webseiten-Elementen geben, damit Hilfsmittel wie Screenreader genau wissen, welche Funktion diese Elemente haben. Zum Beispiel kann eine Schaltfläche als „Button“ oder ein Menü als „Navigation“ markiert werden. So verstehen Nutzer:innen mit Einschränkungen besser, wie sie die Seite bedienen können."
+  },
+  {
+    "id": 12,
+    "title": "Assistive Technologien",
+    "description": "Assistive Technologien sind technische Hilfsmittel, die Menschen mit Einschränkungen dabei unterstützen, digitale Inhalte besser nutzen zu können. Dazu gehören zum Beispiel Screenreader, Vergrößerungsprogramme, Braillezeilen oder Sprachsteuerungen. Diese Technologien helfen, Barrieren abzubauen und die Bedienung von Webseiten, Apps oder Geräten zu erleichtern."
+  },
+  {
+    "id": 13,
+    "title": "Audio-Beschreibung oder Audiodeskription",
+    "description": "Eine Audio-Beschreibung ist eine zusätzliche Tonspur, die wichtige visuelle Informationen eines Videos oder Films in Worte fasst. Sie hilft Menschen mit visuellen Einschränkungen, den Inhalt besser zu verstehen, indem sie beschreibt, was im Bild passiert, etwa Handlungen, Mimik oder Szenenwechsel. So wird der Film oder das Video für alle zugänglicher."
+  },
+  {
+    "id": 14,
+    "title": "axe DevTools",
+    "description": "axe DevTools sind Software-Werkzeuge, die Entwickler:innen helfen, Webseiten und Apps auf Barrierefreiheit zu prüfen. Sie finden automatisch Fehler und Probleme, die Nutzer:innen mit Einschränkungen das Bedienen erschweren können. So können Entwickler:innen ihre digitalen Angebote gezielt verbessern und zugänglicher machen."
+  },
+  {
+    "id": 15,
+    "title": "Barrierefreiheit",
+    "description": "Barrierefreiheit bedeutet, dass digitale Inhalte und Anwendungen so gestaltet sind, dass sie von allen Menschen genutzt werden können, auch von Personen mit unterschiedlichen Einschränkungen. Das umfasst beispielsweise eine einfache Bedienung ohne Maus, gut lesbare Texte, verständliche Strukturen und Unterstützung durch Hilfsmittel wie Screenreader. Ziel ist es, niemanden auszuschließen und allen den gleichen Zugang zu Informationen und Funktionen zu ermöglichen."
+  },
+  {
+    "id": 16,
+    "title": "Barrierefreie pdf",
+    "description": "Eine barrierefreie PDF ist ein digitales Dokument, das so gestaltet ist, dass es von allen Menschen genutzt werden kann, auch von Personen mit Einschränkungen. Das bedeutet zum Beispiel, dass der Text lesbar ist, Überschriften richtig strukturiert sind und Bilder Alternativtexte haben. Außerdem kann das Dokument von Hilfsmitteln wie Screenreader erkannt und vorgelesen werden. So stellt eine barrierefreie PDF sicher, dass niemand beim Zugriff auf wichtige Informationen ausgeschlossen wird."
+  },
+  {
+    "id": 17,
+    "title": "Barrierefreiheitsstärkungsgesetz",
+    "description": "Das Barrierefreiheitsstärkungsgesetz ist ein deutsches Gesetz, das Unternehmen und Behörden verpflichtet, ihre digitalen Angebote barrierefrei zu gestalten. Ziel ist es, Menschen mit Einschränkungen besseren Zugang zu Webseiten, Apps und digitalen Dienstleistungen zu ermöglichen. Das Gesetz legt fest, welche Anforderungen erfüllt werden müssen und fördert die inklusive Nutzung digitaler Medien."
+  },
+  {
+    "id": 18,
+    "title": "Bedienhilfe",
+    "description": "Eine Bedienhilfe ist eine Funktion oder Einstellung an digitalen Geräten, die Menschen mit Einschränkungen die Nutzung erleichtert. Dazu gehören zum Beispiel Sprachausgabe, Bildschirmvergrößerung, vereinfachte Steuerung oder die Anpassung von Farben und Kontrasten. Bedienhilfen sind oft direkt in Betriebssysteme wie Windows, Android oder iOS eingebaut und helfen dabei, Barrieren bei der Nutzung von Technik zu reduzieren."
+  },
+  {
+    "id": 19,
+    "title": "Bildbeschreibung",
+    "link": "Alternativer Text (Alt-Text)"
+  },
+  {
+    "id": 20,
+    "title": "Bildschirmleser",
+    "link": "Screenreader"
+  },
+  {
+    "id": 21,
+    "title": "BITV (Barrierefreie-Informationstechnik-Verordnung)",
+    "description": "Die BITV ist eine Verordnung in Deutschland, die regelt, dass Websites und digitale Angebote öffentlicher Stellen barrierefrei gestaltet sein müssen. Sie legt fest, welche technischen und inhaltlichen Anforderungen erfüllt sein sollen, damit Menschen mit Einschränkungen digitale Inhalte ohne Hindernisse nutzen können. Die BITV orientiert sich an internationalen Standards wie den WCAG und ist ein wichtiger Teil der digitalen Inklusion in Deutschland."
+  },
+  {
+    "id": 22,
+    "title": "Braillezeile",
+    "description": "Eine Braillezeile ist ein technisches Hilfsmittel für blinde oder stark seheingeschränkte Menschen. Sie wird mit dem Computer oder mobilen Gerät verbunden und wandelt den Bildschirminhalt in tastbare Blindenschrift (Braille) um. Kleine Stifte heben sich mechanisch an, sodass Nutzer:innen die Inhalte mit den Fingern ertasten können. Die Braillezeile ermöglicht damit den direkten Zugang zu digitalen Texten ohne Bildschirm."
+  },
+  {
+    "id": 23,
+    "title": "Breadcrumb-Navigation",
+    "description": "Eine Breadcrumb-Navigation ist eine Orientierungshilfe auf Websites, die zeigt, wo sich Nutzer:innen gerade innerhalb der Seitenstruktur befinden. Sie stellt den Pfad von der Startseite bis zur aktuellen Unterseite in einer Reihe dar, zum Beispiel: Startseite > Produkte > Smartphones > Modell A. Diese Navigation hilft besonders bei komplexen Seiten, die Übersicht zu behalten, und unterstützt auch Menschen mit kognitiven Einschränkungen beim Verständnis der Seitenhierarchie."
+  },
+  {
+    "id": 24,
+    "title": "CAPTCHA",
+    "description": "Ein CAPTCHA ist eine automatische Sicherheitsabfrage, die Webseiten nutzen, um echte Nutzer:innen von Programmen oder Bots zu unterscheiden. Typisch sind Aufgaben wie verschwommene Buchstaben abtippen, Bilderrätsel lösen oder ein Häkchen setzen. Für Menschen mit Einschränkungen, besonders im Sehen oder bei der Bedienung, kann ein CAPTCHA jedoch eine große Hürde darstellen. Deshalb sollten möglichst barrierefreie Alternativen eingesetzt werden."
+  },
+  {
+    "id": 25,
+    "title": "CSS für Barrierefreiheit",
+    "description": "CSS für Barrierefreiheit bezeichnet den gezielten Einsatz von Gestaltungsmitteln, um Webseiten barrierefrei und besser nutzbar zu machen. Mit CSS lassen sich zum Beispiel Schriftgrößen anpassbar gestalten, ausreichende Kontraste sicherstellen oder sichtbare Fokusrahmen für Tastaturnavigation anzeigen. Gut eingesetztes CSS trägt dazu bei, dass digitale Inhalte für alle Nutzer:innen, auch mit Einschränkungen, leichter zugänglich sind."
+  },
+  {
+    "id": 26,
+    "title": "Dekorative Grafik",
+    "description": "Eine dekorative Grafik ist ein Bild oder Symbol auf einer Website, das rein zur optischen Gestaltung dient und keinen inhaltlichen oder funktionalen Beitrag leistet. Für Nutzer:innen mit Screenreader wird solche Grafik in der Regel ausgeblendet oder mit leerem Alternativtext versehen (z.B. alt), damit sie bei der Navigation nicht ablenkt. So bleibt der Fokus auf den wichtigen Informationen erhalten."
+  },
+  {
+    "id": 27,
+    "title": "Digitale Teilhabe",
+    "description": "Digitale Teilhabe bedeutet, dass alle Menschen, unabhängig von Einschränkungen, Alter, technischer Ausstattung oder Bildung, gleichberechtigten Zugang zu digitalen Angeboten und Informationen haben. Dazu gehört die Möglichkeit, Webseiten, Apps, E-Learning-Plattformen oder Online-Dienste selbstständig, sicher und verständlich nutzen zu können. Digitale Teilhabe ist ein wichtiger Bestandteil von Chancengleichheit und sozialer Inklusion im digitalen Raum."
+  },
+  {
+    "id": 28,
+    "title": " Echtzeit-Übertragung",
+    "description": "Eine Echtzeit-Übertragung bedeutet, dass Ton, Bild oder Daten sofort und ohne spürbare Verzögerung übertragen werden. Das passiert zum Beispiel bei Live-Streams, Videokonferenzen oder Online-Vorträgen. Für Menschen mit Einschränkungen ist es wichtig, dass solche Übertragungen barrierefrei gestaltet sind, etwa mit Untertiteln oder Gebärdensprach-Dolmetschung, damit alle gleichzeitig am Geschehen teilnehmen können."
+  },
+  {
+    "id": 29,
+    "title": "Einfache Sprache",
+    "description": "Einfache Sprache bedeutet, Texte so zu schreiben, dass sie für möglichst viele Menschen leicht verständlich sind. Dabei werden kurze Sätze, bekannte Wörter und klare Strukturen verwendet. Komplizierte Fachbegriffe oder lange Schachtelsätze werden vermieden oder erklärt. Einfache Sprache hilft besonders Menschen mit kognitiven Einschränkungen oder Lernschwierigkeiten, Informationen besser zu verstehen."
+  },
+  {
+    "id": 30,
+    "title": "Eingabehilfe",
+    "description": "Eine Eingabehilfe unterstützt Nutzer:innen dabei, Formulare oder Eingabefelder auf Webseiten leichter und fehlerfrei auszufüllen. Das kann zum Beispiel eine automatische Vervollständigung, klare Fehlermeldungen oder verständliche Hinweise sein. Eingabehilfen sind besonders wichtig für Menschen mit motorischen oder kognitiven Einschränkungen, damit die Bedienung einfacher und barrierefrei gelingt."
+  },
+  {
+    "id": 31,
+    "title": "EN 301:549",
+    "description": "EN 301:549 ist eine europäische Norm, die festlegt, wie digitale Produkte und Dienstleistungen barrierefrei gestaltet sein müssen. Sie hilft Unternehmen und Behörden dabei, Websites, Apps und Software so zu entwickeln, dass Menschen mit verschiedenen Einschränkungen sie problemlos nutzen können. Die Norm sorgt dafür, dass digitale Angebote für alle zugänglich sind und gilt als wichtige Richtlinie in der EU."
+  },
+  {
+    "id": 32,
+    "title": "Epilepsie",
+    "description": "Epilepsie ist eine neurologische Erkrankung, bei der es im Gehirn zu plötzlichen, kurzzeitigen Störungen der elektrischen Aktivität kommt. Diese können sich als Krampfanfälle oder Bewusstseinsstörungen zeigen. Im Kontext von Barrierefreiheit ist es wichtig, Inhalte so zu gestalten, dass sie keine flackernden oder blitzenden Bilder enthalten, die bei Menschen mit Epilepsie Anfälle auslösen könnten."
+  },
+  {
+    "id": 33,
+    "title": "European Accessibility Act",
+    "description": "Der European Accessibility Act ist eine EU-Richtlinie, die dafür sorgt, dass bestimmte Produkte und Dienstleistungen barrierefrei für alle Menschen zugänglich sind. Ziel ist es, gleiche Chancen für Menschen mit Einschränkungen zu schaffen, indem zum Beispiel Webseiten, Apps, Geräte oder Geldautomaten so gestaltet werden müssen, dass sie gut nutzbar sind. Der Act stärkt die digitale und reale Teilhabe in ganz Europa."
+  },
+  {
+    "id": 34,
+    "title": "Farbkontraste",
+    "description": "Farbkontraste beschreiben den Unterschied zwischen Farben, zum Beispiel zwischen Text und Hintergrund. Ein hoher Kontrast sorgt dafür, dass Inhalte gut sichtbar und leicht lesbar sind, besonders für Menschen mit eingeschränktem Sehvermögen oder Farbenblindheit. Gute Farbkontraste sind wichtig, damit alle Nutzer:innen Informationen schnell erkennen können."
+  },
+  {
+    "id": 35,
+    "title": "Farbfehlsichtigkeiten",
+    "description": "Farbfehlsichtigkeiten sind Einschränkungen beim Erkennen oder Unterscheiden von Farben. Menschen mit Farbfehlsichtigkeit sehen Farben oft weniger intensiv oder verwechseln bestimmte Farbtöne, zum Beispiel Rot und Grün. Beim Gestalten von digitalen Inhalten ist es wichtig, solche Einschränkungen zu beachten, damit alle Nutzer:innen die Informationen gut verstehen können, zum Beispiel durch ausreichend große Farbkontraste oder zusätzliche Symbole."
+  },
+  {
+    "id": 36,
+    "title": "Fehlerhinweise",
+    "description": "Fehlerhinweise sind klare Meldungen, die Nutzer:innen anzeigen, wenn bei der Eingabe oder Nutzung einer Webseite etwas nicht richtig funktioniert. Sie helfen dabei, Fehler zu verstehen und zu korrigieren, zum Beispiel wenn ein Pflichtfeld leer bleibt oder eine falsche Eingabe gemacht wird. Gute Fehlerhinweise sind verständlich, deutlich sichtbar und unterstützen alle Nutzer:innen dabei, die Seite problemlos zu bedienen."
+  },
+  {
+    "id": 37,
+    "title": "Fokus-Indikator",
+    "description": "Ein Fokus-Indikator zeigt sichtbar an, welches Element auf einer Webseite gerade aktiv oder ausgewählt ist. Das ist besonders wichtig für Nutzer:innen, die mit der Tastatur oder Hilfsmitteln navigieren, damit sie wissen, wo sie sich gerade befinden. Der Fokus-Indikator kann zum Beispiel ein farbiger Rahmen, eine Umrandung oder eine andere Markierung sein und hilft dabei, die Bedienung barrierefrei zu gestalten."
+  },
+  {
+    "id": 38,
+    "title": "Formularbarrierefreiheit",
+    "description": "Formularbarrierefreiheit bedeutet, dass Online-Formulare so gestaltet sind, dass alle Menschen sie leicht ausfüllen und nutzen können, auch Personen mit Einschränkungen. Das umfasst klare Beschriftungen, verständliche Fehlermeldungen, gut sichtbare Fokus-Indikatoren und eine einfache Navigation, zum Beispiel per Tastatur oder Bildschirmleser. So wird sichergestellt, dass niemand beim Ausfüllen von Formularen ausgeschlossen wird."
+  },
+  {
+    "id": 39,
+    "title": "Gebärdensprache",
+    "description": "Gebärdensprache ist eine visuelle Sprache, die hauptsächlich von Menschen mit Hör-Einschränkungen genutzt wird. Sie besteht aus Handzeichen, Mimik und Körperbewegungen, um Wörter und Gefühle auszudrücken. In digitalen Inhalten hilft die Einbindung von Gebärdensprachvideos oder -dolmetscher:innen, Informationen für Menschen mit Hör-Einschränkungen zugänglicher zu machen."
+  },
+  {
+    "id": 40,
+    "title": "Gehörlose Menschen",
+    "description": "Gehörlose Menschen können kaum oder gar nichts hören. Sie kommunizieren oft mit Gebärdensprache oder schriftlich. Für sie ist es wichtig, dass digitale Inhalte nicht nur hörbar, sondern auch visuell zugänglich sind, zum Beispiel durch Untertitel, Gebärdensprachvideos oder klare Texte. So können sie Informationen besser verstehen und am digitalen Alltag teilhaben."
+  },
+  {
+    "id": 41,
+    "title": "Hilfstechnologien",
+    "link": "Assistive Technologien"
+  },
+  {
+    "id": 42,
+    "title": "Inklusion",
+    "description": "Inklusion bedeutet, dass alle Menschen, unabhängig von Einschränkungen, Herkunft, Alter oder anderen Unterschieden, von Anfang an gleichberechtigt mitgedacht und einbezogen werden. Im digitalen Raum heißt das: Webseiten, Apps und digitale Inhalte sollen so gestaltet sein, dass wirklich alle sie nutzen, verstehen und bedienen können, ohne zusätzliche Hürden oder Sonderlösungen."
+  },
+  {
+    "id": 43,
+    "title": "Inklusive KI",
+    "description": "Inklusive KI (Künstliche Intelligenz) bezeichnet Systeme und Anwendungen, die so entwickelt werden, dass sie alle Menschen gleich gut unterstützen, unabhängig von individuellen Einschränkungen oder persönlichen Merkmalen. Das bedeutet: KI soll verständlich, fair, barrierefrei und ohne Vorurteile funktionieren. Sie darf niemanden ausschließen, sondern soll die digitale Teilhabe aktiv fördern."
+  },
+  {
+    "id": 44,
+    "title": "Inklusives Design",
+    "description": "Inklusives Design ist ein Gestaltungsansatz, bei dem digitale Produkte wie Webseiten oder Apps von Anfang an so entwickelt werden, dass möglichst viele Menschen sie nutzen können, unabhängig von Einschränkungen, Alter, Sprache oder Technik-Erfahrung. Es geht nicht um nachträgliche Anpassung, sondern darum, Vielfalt direkt mitzudenken und Barrieren gar nicht erst entstehen zu lassen."
+  },
+  {
+    "id": 45,
+    "title": "Interface-Zugänglichkeit",
+    "description": "Interface-Zugänglichkeit beschreibt, wie gut eine Benutzeroberfläche, also z.B. eine Webseite, App oder Software, von allen Menschen genutzt werden kann, unabhängig von Einschränkungen. Eine zugängliche Oberfläche ist klar strukturiert, verständlich beschriftet, mit der Tastatur bedienbar und funktioniert auch mit Hilfstechnologien wie Screenreadern. Ziel ist es, dass niemand durch die Gestaltung ausgeschlossen wird."
+  },
+  {
+    "id": 46,
+    "title": "Invisible Content",
+    "description": "Invisible Content (unsichtbarer Inhalt) bezeichnet Informationen auf einer Webseite, die für Nutzer:innen mit dem Auge nicht sichtbar sind, aber im Hintergrund vorhanden sind, zum Beispiel für Screenreader oder Suchmaschinen. Das können zusätzliche Beschreibungen, ARIA-Labels oder Anweisungen sein, die Menschen mit Einschränkungen helfen, sich besser auf der Seite zurechtzufinden. Wichtig ist, dass solcher Inhalt sinnvoll eingesetzt wird und die Nutzung unterstützt, ohne zu verwirren."
+  },
+  {
+    "id": 47,
+    "title": "ISO-Normen zur Barrierefreiheit",
+    "description": "ISO-Normen zur Barrierefreiheit sind internationale Standards, die festlegen, wie digitale Produkte und Dienstleistungen gestaltet sein sollten, damit sie für alle Menschen zugänglich sind, auch für Personen mit Einschränkungen. Eine bekannte Norm ist zum Beispiel die ISO 9241-171, die Empfehlungen für barrierefreie Softwareentwicklung gibt. Diese Normen helfen Entwickler:innen und Designer:innen, weltweit einheitliche Qualitätsstandards für digitale Barrierefreiheit umzusetzen."
+  },
+  {
+    "id": 48,
+    "title": "JAWS (Job Access With Speech)",
+    "description": "JAWS ist ein weit verbreiteter Screenreader für Windows, der Menschen mit Seh-Einschränkungen hilft, Computer zu bedienen. Das Programm liest Bildschirminhalte vor oder gibt sie über eine Braillezeile aus. Nutzer:innen können mit Tastenkombinationen durch Webseiten, Dokumente oder Programme navigieren. JAWS ist besonders wichtig für barrierefreies Webdesign, da Entwickler:innen sicherstellen sollten, dass ihre Inhalte damit verständlich und vollständig nutzbar sind."
+  },
+  {
+    "id": 49,
+    "title": "Jump-Links",
+    "link": "Skip Links (Sprunglinks)"
+  },
+  {
+    "id": 50,
+    "title": "Keyboard-Navigation",
+    "link": "Tastaturnavigation"
+  },
+  {
+    "id": 51,
+    "title": "Konformität",
+    "description": "Konformität zur Barrierefreiheit bedeutet, dass digitale Inhalte, wie Webseiten oder Apps, bestimmte festgelegte Regeln und Standards erfüllen, damit sie für alle Menschen gut zugänglich sind, auch für Personen mit Einschränkungen. Das Einhalten dieser Vorgaben wird oft durch Tests überprüft und zeigt, ob eine Seite wirklich barrierefrei nutzbar ist."
+  },
+  {
+    "id": 52,
+    "title": "Konformitätsniveau (A, AA, AAA)",
+    "description": "Die WCAG (Web Content Accessibility Guidelines) legen fest, wie Webseiten und digitale Inhalte gestaltet werden sollten, damit sie für alle Menschen gut zugänglich sind,  auch für Personen mit Einschränkungen. Die Konformitätsniveaus A, AA und AAA zeigen dabei, wie gut eine Webseite diese Regeln erfüllt: A ist die Basisstufe und umfasst die wichtigsten Mindestanforderungen, um grundlegende Barrieren zu beseitigen. AA ist die mittlere Stufe und sorgt dafür, dass die Webseite für die meisten Nutzer:innen gut nutzbar ist, mit zusätzlichen Anforderungen für bessere Lesbarkeit und Navigation. AAA ist die höchste Stufe und steht für bestmögliche Zugänglichkeit, bei der auch spezielle Bedürfnisse besonders berücksichtigt werden. Je höher das Niveau, desto umfassender ist die Barrierefreiheit, aber nicht alle Seiten müssen immer alle Kriterien bis AAA erfüllen. Das Ziel ist meist mindestens das Niveau AA, um eine breite Zugänglichkeit zu gewährleisten."
+  },
+  {
+    "id": 53,
+    "title": "Kontraste",
+    "link": "Farbkontraste"
+  },
+  {
+    "id": 54,
+    "title": "Label-Zuweisung",
+    "description": "Die Label-Zuweisung beschreibt das klare Beschriften von Bedienelementen wie Formularfeldern, Schaltern oder Icons in digitalen Anwendungen. Durch ein Label wird erklärt, was ein Element macht oder welche Information eingegeben werden soll. Das ist besonders wichtig für Nutzer:innen, die Screenreader oder andere assistive Technologien verwenden. Richtig zugewiesene Labels sorgen dafür, dass digitale Inhalte verständlich, navigierbar und barrierefrei sind."
+  },
+  {
+    "id": 55,
+    "title": "Layout (barrierefrei)",
+    "description": "Ein barrierefreies Layout beschreibt die visuelle Anordnung von Inhalten auf einer Webseite oder in einer App, die so gestaltet ist, dass alle Nutzer:innen, unabhängig von Einschränkungen, Informationen gut erfassen und bedienen können. Dazu gehört zum Beispiel eine klare Struktur, ausreichend Abstand zwischen Elementen, sinnvolle Überschriftenhierarchie, flexible Darstellung auf verschiedenen Geräten und die Möglichkeit, Inhalte ohne Maus zu erreichen. Ein durchdachtes Layout hilft allen Menschen bei der Orientierung und verbessert die Nutzerfreundlichkeit."
+  },
+  {
+    "id": 56,
+    "title": "Lesehilfe",
+    "description": "Lesehilfen sind digitale oder physische Werkzeuge, die das Verstehen und Erfassen von Texten erleichtern, besonders für Menschen mit Lernschwierigkeiten, Sehbeeinträchtigungen oder Konzentrationsproblemen. Dazu zählen zum Beispiel Bildschirmvorleser, Textvergrößerung, Zeilenleser, Kontrastanpassungen oder die Darstellung in einfacher Sprache. Lesehilfen tragen dazu bei, dass mehr Menschen selbstständig und barrierefrei auf Informationen zugreifen können."
+  },
+  {
+    "id": 57,
+    "title": "Metadaten",
+    "description": "Metadaten sind strukturierte Informationen, die zusätzliche Details über digitale Inhalte liefern, zum Beispiel über Bilder, Dokumente oder Webseiten. Sie beschreiben, was ein Inhalt ist, wann er erstellt wurde, oder wie er genutzt werden kann. Im Bereich der Barrierefreiheit helfen Metadaten dabei, Inhalte für assistive Technologien besser auffindbar und verständlich zu machen. Zum Beispiel kann ein PDF durch Metadaten als barrierefrei gekennzeichnet oder ein Bild durch einen Alternativtext beschrieben werden."
+  },
+  {
+    "id": 58,
+    "title": "Navigation (barrierefrei)",
+    "description": "Barrierefreie Navigation beschreibt die Art und Weise, wie Nutzer:innen sich auf einer Website oder in einer Anwendung problemlos zurechtfinden können, unabhängig von körperlichen, sensorischen oder kognitiven Einschränkungen. Eine barrierefreie Navigation ist zum Beispiel per Tastatur steuerbar, hat gut erkennbare Menüpunkte, sinnvolle Linkbeschriftungen und eine klare Seitenstruktur. Sie hilft allen Menschen, schnell zu verstehen, wo sie sich befinden und wie sie dorthin gelangen, wo sie hinmöchten, ganz ohne Barrieren."
+  },
+  {
+    "id": 59,
+    "title": "Normen zur Barrierefreiheit",
+    "description": "Normen zur Barrierefreiheit sind offiziell festgelegte Regeln und technische Standards, die dafür sorgen sollen, dass digitale Inhalte wie Webseiten, Apps oder Dokumente für alle Menschen zugänglich sind, auch für Personen mit unterschiedlichen Einschränkungen. Solche Normen geben konkrete Anforderungen vor, zum Beispiel zur Bedienbarkeit mit der Tastatur, zu Kontrasten oder zur Verständlichkeit von Texten. Bekannte Normen sind zum Beispiel die WCAG (Web Content Accessibility Guidelines) oder die EN 301 549, die in vielen Ländern gesetzlich berücksichtigt werden."
+  },
+  {
+    "id": 60,
+    "title": "NVDA (Screenreader)",
+    "description": "NVDA ist ein kostenloser Screenreader für Windows-Computer. Er hilft Menschen mit Sehbeeinträchtigung oder blinden Nutzer:innen dabei, den Bildschirminhalt vorgelesen zu bekommen. Texte, Menüs, Webseiten und viele Programme können so per Tastatur bedient und verstanden werden. NVDA ist eine wichtige assistive Technologie für die digitale Barrierefreiheit und wird häufig in Bildung, Beruf und Alltag eingesetzt. Da es Open Source ist, kann es frei genutzt und weiterentwickelt werden."
+  },
+  {
+    "id": 61,
+    "title": "OnFocus",
+    "description": "OnFocus beschreibt in der Webentwicklung ein Ereignis, das ausgelöst wird, wenn ein Element auf einer Webseite aktiv wird oder den Fokus bekommt, zum Beispiel durch Anklicken oder durch Navigation mit der Tastatur. Für barrierefreie Webseiten ist OnFocus wichtig, weil es zeigt, wo sich Nutzer:innen gerade befinden. So können Menschen mit Einschränkungen besser erkennen, welches Element sie gerade bedienen oder lesen. Oft wird OnFocus genutzt, um sichtbare Hervorhebungen oder Hinweise anzuzeigen."
+  },
+  {
+    "id": 62,
+    "title": "Operable (POUR)",
+    "description": "Operable ist eines der vier Grundprinzipien der Barrierefreiheit, genannt POUR. Es bedeutet, dass alle Funktionen einer Website oder Anwendung so gestaltet sein müssen, dass sie von allen Nutzer:innen bedient werden können. Das heißt zum Beispiel, dass alle Inhalte mit der Tastatur erreichbar sind und es keine Zeitlimits gibt, die Menschen mit Einschränkungen behindern könnten. Operable sorgt dafür, dass niemand durch technische oder gestalterische Hürden daran gehindert wird, eine Webseite oder App zu nutzen."
+  },
+  {
+    "id": 63,
+    "title": "Orientierungshilfe",
+    "description": "Orientierungshilfen sind Funktionen oder Gestaltungselemente auf einer Website, die Nutzer:innen helfen, sich leichter zurechtzufinden. Dazu gehören zum Beispiel klare Menüs, sichtbare Überschriften, Breadcrumbs oder eine gut strukturierte Seitenübersicht. Für Menschen mit Einschränkungen sind Orientierungshilfen besonders wichtig, damit sie schnell verstehen, wo sie sich befinden und wie sie zu gewünschten Inhalten gelangen können."
+  },
+  {
+    "id": 64,
+    "title": "Overlay-Tool",
+    "description": "Ein Overlay-Tool ist ein Programm oder eine Erweiterung, die auf einer Website zusätzliche Funktionen für Barrierefreiheit hinzufügt, zum Beispiel vergrößerte Schrift, Farbkontraste oder Vorlesefunktionen. Diese Tools legen sich sozusagen „über“ die bestehende Seite und sollen sie leichter zugänglich machen. Allerdings können Overlay-Tools auch Probleme verursachen, wenn sie die eigentliche Barrierefreiheit der Website behindern oder Nutzer:innen verwirren."
+  },
+  {
+    "id": 65,
+    "title": "PAC",
+    "description": "PAC steht für „Programm zur automatischen Prüfung von Barrierefreiheit“ und bezeichnet Tools oder Verfahren, die Websites oder digitale Inhalte automatisch auf ihre Zugänglichkeit testen. Solche Programme helfen dabei, Fehler und Probleme schnell zu erkennen, die Menschen mit Einschränkungen den Zugang erschweren könnten. PACs sind ein wichtiger erster Schritt, ersetzen aber nicht die manuelle Überprüfung durch Expert:innen oder Nutzer:innen mit unterschiedlichen Bedürfnissen."
+  },
+  {
+    "id": 66,
+    "title": "Perceivable (POUR)",
+    "description": "Perceivable ist eines der vier Grundprinzipien der Barrierefreiheit, genannt POUR. Es bedeutet, dass alle Inhalte und Informationen auf einer Webseite so gestaltet sein müssen, dass sie von allen Menschen wahrgenommen werden können, egal ob sie sehen, hören oder andere Sinne nutzen. Dazu gehört zum Beispiel, dass Bilder eine Beschreibung bekommen und Texte nicht nur durch Farben vermittelt werden. Perceivable sorgt dafür, dass niemand wichtige Inhalte verpasst."
+  },
+  {
+    "id": 67,
+    "title": "Polymodale Bedienung",
+    "description": "Polymodale Bedienung bedeutet, dass eine Webseite oder Anwendung auf verschiedene Arten gesteuert werden kann, zum Beispiel mit Tastatur, Maus, Touchscreen oder Spracheingabe. So können Menschen mit unterschiedlichen Einschränkungen die Bedienung wählen, die für sie am besten funktioniert. Das macht digitale Angebote flexibler und zugänglicher für alle Nutzer:innen."
+  },
+  {
+    "id": 68,
+    "title": "POUR-Prinzipien",
+    "description": "Die POUR-Prinzipien sind vier wichtige Regeln, die helfen, Webseiten und digitale Inhalte barrierefrei zu gestalten. Sie stehen für Perceivable (wahrnehmbar), Operable (bedienbar), Understandable (verständlich) und Robust (zuverlässig). Zusammen sorgen sie dafür, dass alle Menschen, auch mit Einschränkungen, Informationen nutzen und bedienen können, egal mit welchem Gerät oder welcher Technik."
+  },
+  {
+    "id": 69,
+    "title": "Responsives Design",
+    "description": "Responsives Design bedeutet, dass eine Webseite sich automatisch an verschiedene Bildschirmgrößen und Geräte anpasst. Egal, ob Nutzer:innen mit einem Smartphone, Tablet oder Computer auf die Seite zugreifen, das Layout bleibt übersichtlich und gut bedienbar. So wird sichergestellt, dass alle Menschen, auch mit Einschränkungen, die Inhalte einfach nutzen können."
+  },
+  {
+    "id": 70,
+    "title": "Robust (POUR)",
+    "description": "Der Aspekt „Robust“ im POUR-Prinzip bedeutet, dass digitale Inhalte so gestaltet werden, dass sie zuverlässig von verschiedenen Geräten, Browsern und unterstützenden Technologien gelesen und verarbeitet werden können. Dadurch bleibt der Zugang für alle Nutzer:innen auch dann gewährleistet, wenn sich Technik oder Software verändert oder weiterentwickelt. Robustheit sorgt also für eine dauerhafte und vielseitige Nutzbarkeit von Webseiten und Apps."
+  },
+  {
+    "id": 71,
+    "title": "Schriftgröße",
+    "description": "Die Schriftgröße bestimmt, wie groß der Text auf einer Webseite oder in einem Dokument dargestellt wird. Eine gut wählbare Schriftgröße ist wichtig, damit alle Menschen den Inhalt gut lesen können, besonders Personen mit Seh-Einschränkungen. Flexible Schriftgrößen, die sich leicht anpassen lassen, tragen zur besseren Barrierefreiheit bei."
+  },
+  {
+    "id": 72,
+    "title": "Screenreader",
+    "description": "Ein Screenreader ist eine Software, die Bildschirminhalte in Sprache oder Braille übersetzt. Sie wird von Menschen mit Seh-Einschränkungen genutzt, um Webseiten, Apps oder Dokumente bedienen und verstehen zu können. Der Screenreader liest Texte, Bildbeschreibungen, Überschriften und Bedienelemente vor und ermöglicht so eine barrierefreie Nutzung digitaler Inhalte."
+  },
+  {
+    "id": 73,
+    "title": "Section 508",
+    "description": "Section 508 ist eine Regelung aus den USA, die sicherstellt, dass elektronische und digitale Angebote von Behörden für Menschen mit Einschränkungen zugänglich sind. Das bedeutet, Webseiten, Software und Geräte müssen so gestaltet sein, dass sie von allen genutzt werden können, egal ob mit Hilfsmitteln oder speziellen Technologien."
+  },
+  {
+    "id": 74,
+    "title": "Semantisches HTML",
+    "description": "Semantisches HTML bedeutet, dass beim Erstellen von Webseiten die richtigen HTML-Elemente genutzt werden, um die Bedeutung von Inhalten klar zu machen. Zum Beispiel werden Überschriften, Absätze oder Listen mit passenden Tags ausgezeichnet. So verstehen nicht nur Menschen, sondern auch Hilfsmittel wie Screenreader besser, wie die Seite aufgebaut ist und welche Informationen wichtig sind."
+  },
+  {
+    "id": 75,
+    "title": "Skalierbarkeit",
+    "description": "Skalierbarkeit beschreibt die Fähigkeit von digitalen Inhalten, sich flexibel an unterschiedliche Bildschirmgrößen, Zoomstufen oder Anzeigeeinstellungen anzupassen, ohne dass Funktionen verloren gehen oder Inhalte unleserlich werden. Für barrierefreies Design bedeutet das: Nutzer:innen mit Seh-Einschränkungen können Texte vergrößern oder die Anzeige anpassen, ohne dass die Bedienbarkeit oder die Struktur der Seite beeinträchtigt wird."
+  },
+  {
+    "id": 76,
+    "title": "Skip Links (Sprunglinks)",
+    "description": "Sprunglinks sind spezielle Links, die es Nutzer:innen ermöglichen, direkt zu einem bestimmten Abschnitt einer Webseite zu springen, zum Beispiel zum Hauptinhalt oder zur Navigation. Besonders hilfreich sind sie für Menschen, die Screenreader verwenden oder nicht mit der Maus navigieren können. Sie verbessern die Zugänglichkeit, indem sie lange Wege überflüssig machen und die Orientierung auf der Seite erleichtern."
+  },
+  {
+    "id": 77,
+    "title": "Tab-Reihenfolge",
+    "description": "Die Tab-Reihenfolge beschreibt die logische Reihenfolge, in der Nutzer*innen mit der Tabulatortaste durch die interaktiven Elemente einer Website navigieren können, zum Beispiel durch Links, Buttons oder Formularfelder. Eine gut durchdachte Tab-Reihenfolge sorgt dafür, dass die Inhalte in einer sinnvollen und erwartbaren Reihenfolge erreichbar sind. Das ist besonders wichtig für Menschen, die die Website mit der Tastatur statt mit der Maus bedienen, zum Beispiel aufgrund von motorischen Einschränkungen oder weil sie Screenreader nutzen. Eine falsche oder unstrukturierte Tab-Reihenfolge kann die Orientierung erschweren oder Funktionen unzugänglich machen."
+  },
+  {
+    "id": 78,
+    "title": "Tastaturnavigation",
+    "description": "Tastaturnavigation beschreibt die Möglichkeit, eine Website oder eine Anwendung vollständig mit der Tastatur zu bedienen, also ohne Maus oder Touchscreen. Dabei werden Tasten wie Tab, Pfeile oder Enter genutzt, um sich durch Menüs, Links und Formulare zu bewegen. Eine gut funktionierende Tastaturnavigation ist wichtig für Menschen mit Einschränkungen, die keine Maus verwenden können, und verbessert die Zugänglichkeit für alle Nutzer:innen."
+  },
+  {
+    "id": 79,
+    "title": "Text-Skalierung",
+    "description": "Text-Skalierung bezeichnet die Möglichkeit, Schriftgrößen flexibel an individuelle Bedürfnisse anzupassen, zum Beispiel über die Einstellungen im Browser oder Betriebssystem. Für viele Nutzer:innen mit Seh- oder Leseschwierigkeiten ist dies essenziell, um Inhalte gut erkennen und erfassen zu können. Barrierefreie Websites unterstützen Text-Skalierung, indem sie relative Maßeinheiten (wie „em“ oder „%“) statt fester Pixelwerte verwenden und darauf achten, dass beim Vergrößern keine Inhalte abgeschnitten oder unlesbar werden. So bleibt der Zugang zur Information für alle gewährleistet, unabhängig von der Bildschirmgröße oder den persönlichen Anforderungen."
+  },
+  {
+    "id": 80,
+    "title": "Understandable (POUR)",
+    "description": "„Understandable“ ist eines der vier Prinzipien der Web Content Accessibility Guidelines (WCAG), die unter dem Kürzel POUR zusammengefasst sind. Es bedeutet, dass Inhalte und Bedienungselemente auf einer Website für alle Nutzer:innen verständlich und nachvollziehbar sein müssen. Dazu gehört zum Beispiel eine klare und einfache Sprache, eine logische Seitenstruktur sowie vorhersehbares Verhalten von Menüs, Links oder Formularen. Auch Hinweise bei Eingabefehlern oder verständliche Navigationselemente spielen eine Rolle. Ziel ist es, dass Nutzer:innen, unabhängig von kognitiven Einschränkungen oder Sprachverständnis, die Inhalte erfassen und sicher mit der Website interagieren können."
+  },
+  {
+    "id": 81,
+    "title": "Universal Design",
+    "description": "Universal Design beschreibt ein Gestaltungskonzept, das darauf abzielt, Produkte, Umgebungen, Technologien und Inhalte so zu entwerfen, dass sie von möglichst vielen Menschen ohne zusätzliche Anpassung genutzt werden können, unabhängig von Alter, Einschränkungen oder individuellen Fähigkeiten. Im digitalen Bereich bedeutet das zum Beispiel Websites oder Apps so zu gestalten, dass sie für alle Nutzer:innen intuitiv bedienbar, gut lesbar und barrierearm sind, ganz ohne spezielle Hilfsmittel. Ziel des Universal Designs ist es, Inklusion von Anfang an mitzudenken und eine gleichberechtigte Teilhabe für alle zu ermöglichen."
+  },
+  {
+    "id": 82,
+    "title": "Untertitel",
+    "description": "Untertitel sind schriftliche Einblendungen von gesprochenem Text oder relevanten Geräuschen in Videos, Filmen oder Livestreams. Sie helfen Menschen, die gehörlos oder schwerhörig sind, den Inhalt visuell zu erfassen. Es gibt verschiedene Arten von Untertiteln: Manche zeigen nur den gesprochenen Text, andere enthalten zusätzlich Geräuschbeschreibungen (z.B. [Musik spielt] oder [Türknallen]). Untertitel fördern die digitale Teilhabe, da sie Inhalte für mehr Menschen zugänglich machen, auch für Personen, die eine andere Sprache sprechen oder gerade keinen Ton nutzen können."
+  },
+  {
+    "id": 83,
+    "title": "W3C (World Wide Web Consortium)",
+    "description": "Das W3C (World Wide Web Consortium) ist eine internationale Organisation, die Regeln und Standards für das Internet entwickelt. Diese Standards sorgen dafür, dass Websites und digitale Inhalte für alle Nutzer:innen gut funktionieren, unabhängig davon, welche Geräte oder Hilfsmittel sie verwenden. Das W3C arbeitet auch daran, das Web zugänglicher und barrierefreier zu machen, damit niemand beim Surfen ausgeschlossen wird. So hilft das W3C, das Internet fair und nutzerfreundlich für alle zu gestalten."
+  },
+  {
+    "id": 84,
+    "title": "WAI (Web Accessibility Initiative)",
+    "description": "Die WAI (Web Accessibility Initiative) ist eine Abteilung des W3C, die sich darauf spezialisiert hat, das Internet für alle Menschen zugänglich zu machen, besonders für Menschen mit Einschränkungen. Sie entwickelt Regeln, Werkzeuge und Leitfäden, die dabei helfen, Webseiten und digitale Inhalte so zu gestalten, dass sie für alle nutzbar sind. Die WAI unterstützt damit, Barrieren im Netz abzubauen und eine inklusive Online-Welt zu schaffen."
+  },
+  {
+    "id": 85,
+    "title": "WAVE",
+    "description": "WAVE ist ein Online-Tool, das hilft, Webseiten auf Barrierefreiheit zu prüfen. Es zeigt übersichtlich an, wo es Probleme gibt, die Menschen mit Einschränkungen das Nutzen erschweren könnten. So können Entwicklerinnen schnell erkennen, was verbessert werden muss, um die Webseite zugänglicher zu machen. WAVE unterstützt dabei, digitale Inhalte für alle Nutzerinnen verständlich und benutzbar zu gestalten."
+  },
+  {
+    "id": 86,
+    "title": "WCAG (Web Content Accessibility Guidelines",
+    "description": "Die WCAG (Web Content Accessibility Guidelines) sind weltweit anerkannte Regeln, die erklären, wie Webseiten und digitale Inhalte so gestaltet werden können, dass sie für Menschen mit verschiedenen Einschränkungen zugänglich sind. Die WCAG helfen dabei, Barrieren im Netz abzubauen, indem sie klare Empfehlungen zu Texten, Farben, Navigation und Technik geben. Ziel ist es, digitale Angebote für alle Menschen gleich gut nutzbar zu machen."
+  },
+  {
+    "id": 87,
+    "title": "WebAIM",
+    "description": "WebAIM ist eine Organisation, die sich darauf spezialisiert hat, das Bewusstsein für barrierefreies Webdesign zu fördern. Sie bietet Werkzeuge, Schulungen und Informationen an, damit Webseiten für Menschen mit Einschränkungen leichter zugänglich werden. WebAIM unterstützt Entwicklerinnen und Designerinnen dabei, ihre digitalen Inhalte inklusiv und nutzerfreundlich zu gestalten."
+  },
+  {
+    "id": 88,
+    "title": "Zwei-Sinne-Prinzip",
+    "description": "Das Zwei-Sinne-Prinzip bedeutet, Informationen auf einer Website oder in digitalen Inhalten mindestens auf zwei verschiedene Arten anzubieten, zum Beispiel durch Text und Ton oder Bild und Sprache. So wird sichergestellt, dass Menschen mit unterschiedlichen Einschränkungen wichtige Inhalte besser verstehen und nutzen können. Das Prinzip unterstützt eine barrierefreie und inklusive Gestaltung, weil es verschiedene Sinne anspricht."
+  }
+]
