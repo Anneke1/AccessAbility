@@ -102,11 +102,11 @@ const handleToggle = (
   <section class="inhalt">
     <h1 class="text-6xl font-bold">Tools</h1>
     <p class="text-xl text-block">
-      Im Folgenden werden zwei nützliche Werkzeuge vorgestellt, die dabei
-      helfen, Webseiten auf ihre Barrierefreiheit zu überprüfen. Beide Tools
-      bieten unterschiedliche Funktionen und Herangehensweisen, um Probleme
-      sichtbar zu machen und zu analysieren. Schau dir die Hilfsmittel gerne
-      genauer an.
+      Im Folgenden werden dir zwei nützliche Werkzeuge vorgestellt, die dabei
+      helfen können, Webseiten auf ihre Barrierefreiheit zu überprüfen. Beide
+      Tools bieten unterschiedliche Funktionen und Herangehensweisen, um
+      Probleme sichtbar zu machen und zu analysieren. Schau dir die Hilfsmittel
+      gerne genauer an.
     </p>
 
     <div class="card-tipps-grid">
@@ -121,10 +121,10 @@ const handleToggle = (
           Dieses Werkzeug visualisiert Barrierefreiheitsprobleme direkt auf der
           Webseite und macht Fehler sowie Verbesserungspotenziale leicht
           erkennbar. Es bietet eine übersichtliche Darstellung von Warnungen,
-          Fehlern und Hinweisen, die Entwicklern helfen, die
-          Nutzerfreundlichkeit für Menschen mit Behinderungen zu verbessern. Mit
-          seiner intuitiven Oberfläche eignet es sich gut für schnelle Prüfungen
-          und detaillierte Analysen.
+          Fehlern und Hinweisen, die Entwickler:innen helfen, die
+          Nutzungsfreundlichkeit für Menschen mit Behinderungen zu verbessern.
+          Mit seiner intuitiven Oberfläche eignet es sich gut für schnelle
+          Prüfungen und detaillierte Analysen.
         </p>
       </div>
 
@@ -192,6 +192,14 @@ const handleToggle = (
         <span class="section-heading text-cyan-900">R</span>
         <span class="text-xl">für Robust (robust gegenüber Technik)</span>
       </div>
+    </div>
+    <div class="Absatz">
+      <p class="text-xl text-block">
+        Hier findest du Tipps die nach den Richtlinien der WCAG geordnet sind.
+        Pro Tipp erwartet dich eine Begründung, warum die Umsetzung sinnvoll
+        ist, ein Tipp zum Umsetzen, ein Beispiel und eine kurze Quizfrage, um
+        dein Verständnis zu prüfen. Viel Spaß beim Entdecken und Umsetzen.
+      </p>
     </div>
 
     <div class="absatz">

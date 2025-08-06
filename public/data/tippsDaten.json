@@ -16,7 +16,8 @@
         "teamfoto.jpg"
       ],
       "correctAnswer": "Professorin Müller, Expertin für Barrierefreiheit"
-    }
+    },
+    "image": ""
   },
   {
     "id": 112,
@@ -57,11 +58,11 @@
     "level": "AAA",
     "title": "Dekoration ausblenden",
     "Why": "Dekorative Bilder tragen keine inhaltliche Bedeutung bei und können Menschen mit Screenreader unnötig ablenken. Wenn solche Bilder nicht korrekt ausgeblendet werden, müssen Nutzer:innen sich durch irrelevante Informationen navigieren, das stört den Lesefluss und erschwert die Nutzung.",
-    "WhatToDo": "Kennzeichne dekorative Bilder so, dass sie von Screenreadern ignoriert werden. Verwende dafür ein leeres Alt-Attribut (alt=\"\"). So wird das Bild für Nutzer:innen ohne Sehvermögen übersprungen, ohne unnötige Ablenkung zu verursachen. Bilder, die rein gestalterisch oder schmückend sind, z.B. Linien, Rahmen oder Zierelemente, brauchen keine Beschreibung.",
+    "WhatToDo": "Kennzeichne dekorative Bilder so, dass sie von Screenreadern ignoriert werden. Verwende dafür ein leeres Alt-Attribut (alt=\"\"). So wird das Bild für Nutzer:innen ohne Sehvermögen übersprungen, ohne unnötige Ablenkung zu verursachen.",
     "example": "<img src='linie.png' alt=''>",
     "interaction": {
       "type": "quiz",
-      "question": "Für welches der folgenden Bilder sollte ein Alt-Text vergeben werden?",
+      "question": "Für welches der folgenden Bilder sollte am ehesten  Alt-Text vergeben werden?",
       "options": [
         "Ein Zierelement (z.B. geschwungene Linie im Design)",
         "Ein Firmenlogo in der Kopfzeile mit Link zur Startseite",
@@ -482,7 +483,7 @@
     "id": 321,
     "groupId": "3.2",
     "title": "Vorhersehbarkeit",
-    "Why": "Verlässlichkeit und Wiedererkennbarkeit sind entscheidend für eine gute Nutzererfahrung, besonders für Menschen mit kognitiven Einschränkungen, Lernschwierigkeiten oder Konzentrationsproblemen. Wenn sich z.B. Navigationselemente ständig ändern oder ein Link plötzlich ein Formular abschickt, führt das zu Unsicherheit oder Fehlbedienung. Konsistenz schafft Orientierung und reduziert Stress.",
+    "Why": "Verlässlichkeit und Wiedererkennbarkeit sind entscheidend für eine gute Nutzendenerfahrung, besonders für Menschen mit kognitiven Einschränkungen, Lernschwierigkeiten oder Konzentrationsproblemen. Wenn sich z.B. Navigationselemente ständig ändern oder ein Link plötzlich ein Formular abschickt, führt das zu Unsicherheit oder Fehlbedienung. Konsistenz schafft Orientierung und reduziert Stress.",
     "WhatToDo": "Strukturiere Menüs, Buttons und Seitenlayouts so, dass sie sich auf allen Unterseiten ähnlich verhalten und aussehen. Verwende für wiederkehrende Funktionen dieselben Begriffe, Icons und Platzierungen. Links sollten sich wie Links verhalten, also z.B. nicht plötzlich neue Fenster öffnen oder Inhalte ohne Hinweis verändern. Unerwartete Interaktionen (z.B. automatisches Absenden beim Fokussieren eines Felds) solltest du vermeiden oder klar ankündigen.",
     "interaction": {
       "type": "truefalse",

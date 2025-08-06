@@ -17,7 +17,7 @@
           <h2 class="text-2xl footerText text-white">
             Entdecke praktische Tipps, ein hilfreiches <br />
             Wörterbuch und fundierte Infos, um das <br />
-            Web für alle zugänglich zu machen.
+            Web für alle zugänglicher zu machen.
           </h2>
         </div>
       </div>
@@ -61,15 +61,16 @@
       <p class="text-xl text-block">
         Über Gesetze hinaus geht es um Verantwortung. In einer digitalen
         Gesellschaft sollte Teilhabe nicht vom Zufall abhängen. Wenn du heute
-        studierst, wirst du mitentscheiden, wie inklusiv die digitale Welt von
-        morgen sein wird. Barrierefreiheit ist kein „nice to have“, sondern ein
-        Zeichen von Respekt, Gerechtigkeit und digitaler Kompetenz.
+        studierst oder eine Ausbildung machst, wirst du mitentscheiden, wie
+        inklusiv die digitale Welt sein wird. Barrierefreiheit ist kein „nice to
+        have“, sondern ein Zeichen von Respekt, Gerechtigkeit und digitaler
+        Kompetenz.
       </p>
     </section>
 
     <!-- Lisa Erfahrungsbericht mit Bild -->
     <section class="inhaltSeite mt-10">
-      <h2 class="section-heading mb-4">Hallo ich bin Lisa.</h2>
+      <h2 class="section-heading mb-4">Hallo ich bin Susanna.</h2>
 
       <!-- Bild unter der Überschrift -->
 
@@ -107,14 +108,13 @@
       </p>
       <p class="text-xl text-block">
         Auch Captchas stellen oft ein unüberwindbares Hindernis dar. Wenn es
-        keine barrierefreie Alternative (z.B. Audio-Captchas) gibt, bleibe ich
-        bei der Anmeldung einfach außen vor. Das frustriert mich, denn es zeigt
-        mir immer wieder: Das Internet ist nicht für alle gemacht, obwohl es das
-        sein sollte.
+        keine barrierefreie Alternative gibt, bleibe ich bei der Anmeldung
+        einfach außen vor. Das frustriert mich, denn es zeigt mir immer wieder:
+        Das Internet ist nicht für alle gemacht, obwohl es das sein sollte.
       </p>
       <p class="text-xl text-block">
         Gute Beispiele gibt es zwar, aber sie sind leider noch die Ausnahme. Ich
-        wünsche mir, dass Entwickler*innen und Website-Betreiber
+        wünsche mir, dass Entwickler:innen und Website-Betreiber:innen
         Barrierefreiheit nicht als Sonderfall, sondern als Standard betrachten.
         Schließlich profitieren alle von klarer Struktur, verständlicher Sprache
         und zugänglichem Design, nicht nur Menschen mit Behinderung.
