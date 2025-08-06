@@ -288,6 +288,13 @@ const handleToggle = (
                       <div v-if="tip.exampleExplanation" class="mt-2 text-sm">
                         {{ tip.exampleExplanation }}
                       </div>
+                      <div v-if="tip.image" class="mt-4 flex justify-center">
+                        <img
+                          :src="tip.image"
+                          alt=""
+                          class="rounded max-w-auto h-auto"
+                        />
+                      </div>
                     </div>
                     <!--Interaktion-->
                     <section>
