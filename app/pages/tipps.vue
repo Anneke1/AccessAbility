@@ -16,12 +16,26 @@ onMounted(() => {
   if (hash && hash.startsWith("#tipp-")) {
     const idStr = hash.replace("#tipp-", "");
     const id = parseInt(idStr);
+
     if (!isNaN(id)) {
       const el = document.getElementById(`tipp-${id}`);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
+
         if (!openTipps.value.includes(id)) {
-          openTipps.value.push(id); // <details> öffnen
+          openTipps.value.push(id); // Tipp <details> öffnen
+        }
+      }
+
+      // Jetzt: Subkategorie finden
+      const tipp = tippsDaten.find((t) => t.id === id);
+      if (tipp) {
+        const subGroupId = tipp.groupId; // z. B. "1.2"
+        const subDetails = document.querySelector(
+          `details[data-subgroup="${subGroupId}"]`
+        );
+        if (subDetails && !subDetails.open) {
+          subDetails.open = true;
         }
       }
     }
@@ -202,6 +216,7 @@ const handleToggle = (
             :key="subcategory.id"
             class="group border-t"
             @toggle="handleToggle($event, null, true, subcategory.groupId)"
+            :data-subgroup="subcategory.groupId"
           >
             <summary
               class="cursor-pointer px-4 py-3 hover:bg-gray-50 flex justify-between items-center text-base font-semibold"
