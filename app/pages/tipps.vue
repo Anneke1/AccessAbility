@@ -100,7 +100,7 @@ const handleToggle = (
 
 <template>
   <section class="inhalt">
-    <h1 class="text-6xl font-bold">Tools</h1>
+    <h1 class="text-5xl font-bold">Tools</h1>
     <p class="text-xl text-block">
       Im Folgenden werden dir zwei nützliche Werkzeuge vorgestellt, die dabei
       helfen können, Webseiten auf ihre Barrierefreiheit zu überprüfen. Beide

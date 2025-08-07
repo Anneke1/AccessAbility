@@ -11,7 +11,7 @@
         class="absolute inset-0 flex items-center justify-start pl-10 inhalt"
       >
         <div class="space-y-4 max-w-xl">
-          <h1 class="text-6xl footerText text-white">
+          <h1 class="text-5xl footerText text-white">
             Willkommen zu AccessAbility
           </h1>
           <h2 class="text-2xl footerText text-white">
@@ -118,7 +118,7 @@
     </section>
 
     <section class="inhaltSeite">
-      <h2 class="text-6xl font-bold mt-4">Was nun?</h2>
+      <h2 class="text-5xl font-bold mt-4">Was nun?</h2>
       <div class="card-tipps-grid">
         <!-- Glossar -->
         <div class="card-tipps-block">

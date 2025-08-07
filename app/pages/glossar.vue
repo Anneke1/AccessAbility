@@ -117,7 +117,7 @@ const scrollToTop = () => {
     class="inhalt"
     aria-label="Glossar der Fachbegriffe zur Barrierefreiheit"
   >
-    <h1 class="text-6xl font-bold">Wörterbuch</h1>
+    <h1 class="text-5xl font-bold">Wörterbuch</h1>
     <p class="glossar-description">
       Im Wörterbuch findest du wichtige Begriffe, Gesetze und Richtlinien rund
       um das Thema Barrierefreiheit. Es hilft dir dabei, Fachausdrücke besser zu
