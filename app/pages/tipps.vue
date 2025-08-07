@@ -112,7 +112,12 @@ const handleToggle = (
     <div class="card-tipps-grid">
       <!-- WAVE -->
       <div class="card-tipps-block">
-        <a href="https://wave.webaim.org/" class="card-tipps">
+        <a
+          href="https://wave.webaim.org/"
+          class="card-tipps"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div class="card-image-wrapper">
             <NuxtImg src="/img/WAVELogo.png" class="card-image-tipps" />
           </div>
@@ -130,7 +135,12 @@ const handleToggle = (
 
       <!-- AChecker -->
       <div class="card-tipps-block">
-        <a href="/tipps" class="card-tipps">
+        <a
+          href="https://achecker.achecks.ca/checker/index.php"
+          class="card-tipps"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div class="card-image-wrapper">
             <NuxtImg src="/img/ACheckerLogo.png" class="card-image-tipps" />
           </div>
