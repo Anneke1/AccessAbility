@@ -126,12 +126,12 @@
       <div class="card-tipps-grid">
         <!-- Glossar -->
         <div class="card-tipps-block">
-          <a href="/glossar" class="card-tipps">
+          <NuxtLink to="/glossar" class="card-tipps">
             <div class="card-image-wrapper">
               <NuxtImg src="/img/glossarBild.jpg" class="card-image-index" />
               <h2 class="card-title">Glossar</h2>
             </div>
-          </a>
+          </NuxtLink>
           <p class="card-text">
             Im Glossar findest du kurze Erklärungen zu wichtigen Begriffen rund
             um Barrierefreiheit, Inklusion und digitales Design. Die Begriffe
@@ -142,12 +142,12 @@
 
         <!-- Tipps -->
         <div class="card-tipps-block">
-          <a href="/tipps" class="card-tipps">
+          <NuxtLink to="/tipps" class="card-tipps">
             <div class="card-image-wrapper">
               <NuxtImg src="/img/tippsBild.jpg" class="card-image-index" />
               <h2 class="card-title">Tipps und Tools</h2>
             </div>
-          </a>
+          </NuxtLink>
           <p class="card-text">
             Hier findest du praktische Tipps und nützliche Tools, um digitale
             Barrierefreiheit direkt umzusetzen, egal ob beim Design, in der
