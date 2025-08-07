@@ -161,7 +161,7 @@
         </div>
       </div>
     </section>
-    <p class="text-xl text-block inhalt">
+    <p class="text-xl text-block inhaltSeite">
       *Dieser Erfahrungsbericht ist fiktiv und wurde erstellt, um typische
       Erfahrungen, Herausforderungen und Entscheidungswege beispielhaft
       darzustellen. Auch wenn die geschilderte Geschichte auf realitätsnahen
