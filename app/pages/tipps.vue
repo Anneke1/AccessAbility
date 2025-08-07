@@ -112,7 +112,7 @@ const handleToggle = (
     <div class="card-tipps-grid">
       <!-- WAVE -->
       <div class="card-tipps-block">
-        <a href="/glossar" class="card-tipps">
+        <a href="https://wave.webaim.org/" class="card-tipps">
           <div class="card-image-wrapper">
             <NuxtImg src="/img/WAVELogo.png" class="card-image-tipps" />
           </div>
