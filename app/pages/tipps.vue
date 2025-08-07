@@ -119,7 +119,7 @@ const handleToggle = (
           rel="noopener noreferrer"
         >
           <div class="card-image-wrapper">
-            <NuxtImg src="/img/WAVELogo.png" class="card-image-tipps" />
+            <NuxtImg src="/img/WAVELogo.png" class="card-image-tipps" alt="" />
           </div>
         </a>
         <p class="card-text">
@@ -142,7 +142,11 @@ const handleToggle = (
           rel="noopener noreferrer"
         >
           <div class="card-image-wrapper">
-            <NuxtImg src="/img/ACheckerLogo.png" class="card-image-tipps" />
+            <NuxtImg
+              src="/img/ACheckerLogo.png"
+              class="card-image-tipps"
+              alt=""
+            />
           </div>
         </a>
         <p class="card-text">
@@ -223,7 +227,12 @@ const handleToggle = (
           class="px-4 py-3 bg-gray-100 text-xl font-bold flex items-center gap-2"
           :class="section.color"
         >
-          <img v-if="section.image" :src="section.image" class="w-12 h-12" />
+          <img
+            v-if="section.image"
+            :src="section.image"
+            class="w-12 h-12"
+            alt=""
+          />
           {{ section.title }}
         </div>
 
@@ -244,11 +253,12 @@ const handleToggle = (
                   v-if="subcategory.image"
                   :src="subcategory.image"
                   class="w-12 h-12"
+                  alt=""
                 />
                 <span>{{ subcategory.title }}</span>
               </div>
               <span
-                class="text-gray-400 transform transition-transform duration-200 group-open:rotate-180"
+                class="text-black transform transition-transform duration-200 group-open:rotate-180"
               >
                 ▾
               </span>

@@ -105,6 +105,7 @@ function onInput() {
 <template>
   <div class="search-container inhalt">
     <div class="search-bar">
+      <label for="suchbegriff" class="visually-hidden">Suchbegriff</label>
       <input
         v-model="query"
         placeholder="Suchbegriff eingeben..."

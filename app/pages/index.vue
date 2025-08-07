@@ -4,7 +4,7 @@
     <div class="relative w-full h-[1000px]">
       <NuxtImg
         src="/img/startbild.jpg"
-        alt="Startbild"
+        alt=""
         class="absolute inset-0 object-cover w-full h-full"
       />
       <div
@@ -34,7 +34,7 @@
 
       <!-- Bild rechts -->
 
-      <NuxtImg src="/img/Diagramm.png" class="flow-image-right" />
+      <NuxtImg src="/img/Diagramm.png" class="flow-image-right" alt="" />
 
       <p class="text-xl text-block mt-4">
         Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht. Wenn
@@ -74,11 +74,7 @@
 
       <!-- Bild unter der Überschrift -->
 
-      <NuxtImg
-        src="/img/bericht.jpg"
-        alt="Symbolbild für Lisas Erfahrungsbericht"
-        class="flow-image-left"
-      />
+      <NuxtImg src="/img/bericht.jpg" alt="" class="flow-image-left" />
 
       <!-- Text unter dem Bild, ganz links -->
       <p class="text-xl text-block mt-4">
@@ -128,7 +124,11 @@
         <div class="card-tipps-block">
           <NuxtLink to="/glossar" class="card-tipps">
             <div class="card-image-wrapper">
-              <NuxtImg src="/img/glossarBild.jpg" class="card-image-index" />
+              <NuxtImg
+                src="/img/glossarBild.jpg"
+                class="card-image-index"
+                alt=""
+              />
               <h2 class="card-title">Glossar</h2>
             </div>
           </NuxtLink>
@@ -144,7 +144,11 @@
         <div class="card-tipps-block">
           <NuxtLink to="/tipps" class="card-tipps">
             <div class="card-image-wrapper">
-              <NuxtImg src="/img/tippsBild.jpg" class="card-image-index" />
+              <NuxtImg
+                src="/img/tippsBild.jpg"
+                class="card-image-index"
+                alt=""
+              />
               <h2 class="card-title">Tipps und Tools</h2>
             </div>
           </NuxtLink>

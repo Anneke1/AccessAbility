@@ -35,7 +35,7 @@ onBeforeUnmount(() => {
       <NuxtLink to="/" class="flex items-center gap-2">
         <NuxtImg
           src="/img/Logo.png"
-          alt="Logo"
+          alt="Logo mit Link zur Startseite"
           class="h-24 w-26 object-contain"
         />
       </NuxtLink>
@@ -59,6 +59,7 @@ onBeforeUnmount(() => {
       >
         <li>
           <NuxtLink
+            v-if="$route.path !== '/'"
             to="/"
             class="navlink"
             exact-active-class="activeLink"
@@ -67,6 +68,9 @@ onBeforeUnmount(() => {
           >
             Start
           </NuxtLink>
+          <span v-else class="navlink activeLink" aria-current="page"
+            >Start</span
+          >
         </li>
         <li>
           <NuxtLink
