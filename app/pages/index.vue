@@ -113,7 +113,7 @@
         wünsche mir, dass Entwickler:innen und Website-Betreiber:innen
         Barrierefreiheit nicht als Sonderfall, sondern als Standard betrachten.
         Schließlich profitieren alle von klarer Struktur, verständlicher Sprache
-        und zugänglichem Design, nicht nur Menschen mit Behinderung.
+        und zugänglichem Design, nicht nur Menschen mit Behinderung.*
       </p>
     </section>
 
