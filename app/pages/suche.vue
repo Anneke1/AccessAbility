@@ -104,6 +104,7 @@ function onInput() {
 
 <template>
   <div class="search-container inhalt">
+    <h1 class="text-5xl font-bold mb-5">Ich suche Informationen zu...</h1>
     <div class="search-bar">
       <label for="suchbegriff" class="visually-hidden">Suchbegriff</label>
       <input

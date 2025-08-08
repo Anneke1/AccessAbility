@@ -281,7 +281,7 @@ const handleToggle = (
                     <span>{{ tip.title }}</span>
                   </div>
                   <span
-                    class="text-gray-400 transform transition-transform duration-200 group-open:rotate-180"
+                    class="text-black transform transition-transform duration-200 group-open:rotate-180"
                   >
                     ▾
                   </span>
