@@ -214,7 +214,7 @@ const handleToggle = (
         Hier findest du Tipps die nach den Richtlinien der WCAG geordnet sind.
         Pro Tipp erwartet dich eine Begründung, warum die Umsetzung sinnvoll
         ist, ein Tipp zum Umsetzen, ein Beispiel und eine kurze Quizfrage, um
-        dein Verständnis zu prüfen. Viel Spaß beim Entdecken und Umsetzen.
+        dein Verständnis zu prüfen. Viel Spaß beim Entdecken und Umsetzen.*
       </p>
     </div>
 
@@ -431,5 +431,11 @@ const handleToggle = (
     >
       ↑
     </button>
+    <div class="Absatz">
+      <p class="text-xl text-block">
+        * Die Quelle, die als Basis für die Tipps, sowie Struktur verwendet
+        wurde sind die WCAG: https://www.w3.org/WAI/standards-guidelines/wcag/
+      </p>
+    </div>
   </section>
 </template>
