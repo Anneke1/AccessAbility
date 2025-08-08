@@ -34,7 +34,22 @@
 
       <!-- Bild rechts -->
 
-      <NuxtImg src="/img/Diagramm.png" class="flow-image-right" alt="" />
+      <figure class="flow-image-right">
+        <NuxtImg
+          src="/img/Diagramm.png"
+          alt="Anteil von Menschen mit Behinderung in Deutschland (Diagramm)"
+        />
+        <figcaption>
+          Quelle:
+          <a
+            href="https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/_inhalt.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Zahlen nach Bundesamt für Statistik, Stand 2024
+          </a>
+        </figcaption>
+      </figure>
 
       <p class="text-xl text-block mt-4">
         Barrierefreiheit im Netz ist kein Extra, sondern ein Menschenrecht. Wenn
