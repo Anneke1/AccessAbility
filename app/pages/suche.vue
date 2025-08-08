@@ -153,7 +153,7 @@ function onInput() {
         >
           <template v-if="item.type === 'definition'">
             <div class="glossar-link-box">
-              Glossar &gt;
+              Wörterbuch &gt;
               <NuxtLink
                 :to="`/glossar#${encodeURIComponent(item.title)}`"
                 class="glossar-link"

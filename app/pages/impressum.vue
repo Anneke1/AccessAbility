@@ -17,8 +17,9 @@ useHead({
         Herausgeberin
       </h2>
       <address class="text-xl not-italic mt-4">
-        Dein Name<br />
-        Deine Anschrift (optional)<br />
+        Anneke Clausen<br />
+        Damaschkestraße 35A<br />
+        23560 Lübeck<br />
         <a
           href="mailto:clausenanneke@gmail.com"
           class="underline hover:text-blue-900 block mt-2"
