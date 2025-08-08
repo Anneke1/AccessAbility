@@ -129,7 +129,8 @@ const handleToggle = (
           Fehlern und Hinweisen, die Entwickler:innen helfen, die
           Nutzungsfreundlichkeit für Menschen mit Behinderungen zu verbessern.
           Mit seiner intuitiven Oberfläche eignet es sich gut für schnelle
-          Prüfungen und detaillierte Analysen.
+          Prüfungen und detaillierte Analysen. Durch Icons werden Fehler oder
+          Verbesserungen markiert.
         </p>
       </div>
 
@@ -157,6 +158,7 @@ const handleToggle = (
           bekannte Standards einzuhalten und Barrieren gezielt zu beheben. Mit
           seinem klaren Aufbau eignet es sich gut für detaillierte Auswertungen
           und die kontinuierliche Verbesserung digitaler Zugänglichkeit.
+          Zusätzlich wird eine Bewertung des WCAG-Levels vorgenommen.
         </p>
       </div>
     </div>
